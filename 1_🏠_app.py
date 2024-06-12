@@ -1,7 +1,7 @@
 import streamlit as st 
 import pandas as pd
 from st_pages import Page, show_pages, add_page_title
-from streamlit_extras.let_it_rain import rain 
+
 
 
 show_pages(
@@ -18,7 +18,7 @@ show_pages(
 st.set_page_config(page_icon=":soccer_ball:",
                    layout="wide")
 
-    )
+    
 ###sidebar section
 st.sidebar.write(''':orange[DEMO STAGES.]
                  ''')
