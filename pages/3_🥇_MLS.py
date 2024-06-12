@@ -20,11 +20,11 @@ font_italic = FontManager('https://raw.githubusercontent.com/googlefonts/roboto/
 font_bold = FontManager('https://raw.githubusercontent.com/google/fonts/main/apache/robotoslab/'
                         'RobotoSlab[wght].ttf')
 
-df = pd.read_csv('mlf.csv')
-df2 = pd.read_csv('GSC.csv')
-df3 = pd.read_csv('playing_time.csv')
-df4 = pd.read_csv('passing.csv')
-df5 = pd.read_csv('shooting.csv')
+df = pd.read_csv('leagues/MLS/mlf.csv')
+df2 = pd.read_csv('leagues/MLS/GSC.csv')
+df3 = pd.read_csv('leagues/MLS/playing_time.csv')
+df4 = pd.read_csv('leagues/MLS/passing.csv')
+df5 = pd.read_csv('leagues/MLS/shooting.csv')
 
 df2 = df2.rename(columns={'SCA_SCA90': 'SCA90', 'GCA_GCA90': 'GCA90'})
 
