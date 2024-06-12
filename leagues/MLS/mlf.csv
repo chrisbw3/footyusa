@@ -1,0 +1,454 @@
+Date,Time,Comp,Round,Day,Venue,Result,GF,GA,Opponent,xG,xGA,Poss,Attendance,Captain,Formation,Referee,Match Report,Notes,Home Team
+2024-02-21,20:00,MLS,Regular Season,Wed,Home,W,2.0,0.0,RSL,1.4,0.8,55.0,21137.0,Lionel Messi,4-3-3,Cristian Campo Hernández,Match Report,,Inter Miami
+2024-02-25,18:00,MLS,Regular Season,Sun,Away,D,1.0,1.0,LA Galaxy,0.6,3.2,63.0,27642.0,Lionel Messi,4-3-3,Gabriele Ciampi,Match Report,,Inter Miami
+2024-03-02,16:30,MLS,Regular Season,Sat,Home,W,5.0,0.0,Orlando City,2.8,0.8,47.0,21352.0,Lionel Messi,4-3-3,Jaime Herrera,Match Report,,Inter Miami
+2024-03-10,17:00,MLS,Regular Season,Sun,Home,L,2.0,3.0,CF Montréal,2.7,2.0,60.0,21212.0,Drake Callender,3-5-2,Aleksandar Zhelyazkov,Match Report,,Inter Miami
+2024-03-16,14:00,MLS,Regular Season,Sat,Away,W,3.0,1.0,D.C. United,2.3,1.4,52.0,19365.0,Drake Callender,4-3-3,Lorenzo Hernandez,Match Report,,Inter Miami
+2024-03-23,14:00,MLS,Regular Season,Sat,Away,L,0.0,4.0,NY Red Bulls,0.3,1.2,69.0,25219.0,Sergio Busquets,3-5-2,Rafael Martinez,Match Report,,Inter Miami
+2024-03-30,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,NYCFC,2.2,1.1,56.0,21550.0,Drake Callender,4-3-3,Filip Dujic,Match Report,,Inter Miami
+2024-04-06,19:30,MLS,Regular Season,Sat,Home,D,2.0,2.0,Rapids,1.0,1.2,58.0,20868.0,Drake Callender,4-1-4-1,Ted Unkel,Match Report,,Inter Miami
+2024-04-13,19:30,MLS,Regular Season,Sat,Away,W,3.0,2.0,Sporting KC,0.9,0.6,59.0,72610.0,Lionel Messi,4-3-3,Víctor Rivas,Match Report,,Inter Miami
+2024-04-20,19:30,MLS,Regular Season,Sat,Home,W,3.0,1.0,Nashville,2.6,2.4,52.0,21398.0,Lionel Messi,4-3-3,Ismail Elfath,Match Report,,Inter Miami
+2024-04-27,19:30,MLS,Regular Season,Sat,Away,W,4.0,1.0,NE Revolution,2.8,0.4,55.0,65612.0,Lionel Messi,4-3-3,Rubiel Vázquez,Match Report,,Inter Miami
+2024-05-04,19:30,MLS,Regular Season,Sat,Home,W,6.0,2.0,NY Red Bulls,2.8,1.5,58.0,21488.0,Lionel Messi,4-3-3,Tori Penso,Match Report,,Inter Miami
+2024-05-11,19:30,MLS,Regular Season,Sat,Away,W,3.0,2.0,CF Montréal,1.2,1.3,47.0,19619.0,Lionel Messi,4-4-2,Drew Fischer,Match Report,,Inter Miami
+2024-05-15,19:30,MLS,Regular Season,Wed,Away,D,0.0,0.0,Orlando City,0.6,0.7,58.0,25046.0,Drake Callender,4-3-3,R. Mendoza,Match Report,,Inter Miami
+2024-05-18,19:30,MLS,Regular Season,Sat,Home,W,1.0,0.0,D.C. United,1.1,1.1,66.0,21318.0,Lionel Messi,4-3-3,Guido Gonzalez,Match Report,,Inter Miami
+2024-05-25,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,Vancouver W'caps,1.3,2.2,49.0,51035.0,Drake Callender,4-3-3,Joe Dickerson,Match Report,,Inter Miami
+2024-05-29,19:30,MLS,Regular Season,Wed,Home,L,1.0,3.0,Atlanta Utd,0.7,3.5,61.0,21326.0,Lionel Messi,4-3-3,Armando Villarreal,Match Report,,Inter Miami
+2024-06-01,19:30,MLS,Regular Season,Sat,Home,D,3.0,3.0,St. Louis,2.6,1.6,68.0,20793.0,Lionel Messi,4-3-3,Allen Chapman,Match Report,,Inter Miami
+2024-02-25,14:30,MLS,Regular Season,Sun,Home,D,0.0,0.0,Toronto FC,0.9,0.5,52.0,25513.0,Luciano Acosta,3-4-1-2,Jonathan Weiner,Match Report,,FC Cincinnati
+2024-03-02,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,Fire,0.9,1.0,49.0,26592.0,Luciano Acosta,3-4-1-2,Mario Maric,Match Report,,FC Cincinnati
+2024-03-10,15:00,MLS,Regular Season,Sun,Home,D,0.0,0.0,D.C. United,1.7,0.5,58.0,25513.0,Luciano Acosta,3-4-1-2,Cristian Campo Hernández,Match Report,,FC Cincinnati
+2024-03-17,14:00,MLS,Regular Season,Sun,Away,W,2.0,1.0,NE Revolution,1.0,1.2,39.0,14557.0,Matt Miazga,3-4-3,Richonne Clark,Match Report,,FC Cincinnati
+2024-03-23,19:30,MLS,Regular Season,Sat,Home,W,1.0,0.0,NYCFC,1.5,0.5,46.0,24282.0,Luciano Acosta,3-4-1-2,Rafael Bonilla,Match Report,,FC Cincinnati
+2024-03-30,19:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,Charlotte,1.6,2.3,61.0,30043.0,Luciano Acosta,3-4-3,Rubiel Vázquez,Match Report,,FC Cincinnati
+2024-04-06,19:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,NY Red Bulls,0.7,1.2,55.0,25513.0,Luciano Acosta,3-4-1-2,Drew Fischer,Match Report,,FC Cincinnati
+2024-04-13,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,CF Montréal,1.0,1.1,50.0,19619.0,Luciano Acosta,3-4-1-2,Lukasz Szpala,Match Report,,FC Cincinnati
+2024-04-20,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,Atlanta Utd,2.0,1.9,42.0,42600.0,Luciano Acosta,3-4-1-2,Armando Villarreal,Match Report,,FC Cincinnati
+2024-04-27,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,Rapids,2.1,0.7,59.0,25513.0,Luciano Acosta,3-4-1-2,Boiko Serhii,Match Report,,FC Cincinnati
+2024-05-04,19:30,MLS,Regular Season,Sat,Away,W,1.0,0.0,Orlando City,1.0,0.7,58.0,21218.0,Luciano Acosta,3-4-1-2,Ismail Elfath,Match Report,,FC Cincinnati
+2024-05-11,19:45,MLS,Regular Season,Sat,Away,W,2.0,1.0,Crew,1.2,0.8,46.0,,Luciano Acosta,3-4-1-2,Guido Gonzalez,Match Report,,FC Cincinnati
+2024-05-15,19:30,MLS,Regular Season,Wed,Home,W,1.0,0.0,Atlanta Utd,1.1,0.5,49.0,24593.0,Luciano Acosta,3-4-1-2,Ted Unkel,Match Report,,FC Cincinnati
+2024-05-18,19:30,MLS,Regular Season,Sat,Home,W,3.0,1.0,St. Louis,3.0,0.6,55.0,25512.0,Luciano Acosta,3-4-1-2,Tim Ford,Match Report,,FC Cincinnati
+2024-05-25,19:30,MLS,Regular Season,Sat,Away,W,4.0,3.0,Toronto FC,1.5,1.3,50.0,27941.0,Luciano Acosta,3-4-1-2,Víctor Rivas,Match Report,,FC Cincinnati
+2024-05-29,19:30,MLS,Regular Season,Wed,Home,L,0.0,2.0,Nashville,1.3,1.0,59.0,25513.0,Luciano Acosta,3-4-1-2,Jair Marrufo,Match Report,,FC Cincinnati
+2024-02-24,19:30,MLS,Regular Season,Sat,Away,L,0.0,1.0,Charlotte,0.5,2.0,62.0,62291.0,Thiago Martins,4-2-3-1,Mario Maric,Match Report,,New York City FC
+2024-03-02,19:30,MLS,Regular Season,Sat,Away,L,0.0,2.0,St. Louis,0.5,0.8,55.0,22423.0,Thiago Martins,4-3-3,Erick Lezama,Match Report,,New York City FC
+2024-03-09,14:00,MLS,Regular Season,Sat,Home,L,1.0,2.0,Portland Timbers,1.3,0.9,41.0,24774.0,Thiago Martins,4-2-3-1,Esteban Rosano,Match Report,,New York City FC
+2024-03-16,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,Toronto FC,1.4,1.3,53.0,18623.0,Thiago Martins,4-3-3,Muhammad Hassan,Match Report,,New York City FC
+2024-03-23,19:30,MLS,Regular Season,Sat,Away,L,0.0,1.0,FC Cincinnati,0.5,1.5,54.0,24282.0,Thiago Martins,3-4-3,Rafael Bonilla,Match Report,,New York City FC
+2024-03-30,19:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,Inter Miami,1.1,2.2,44.0,21550.0,Thiago Martins,3-4-3,Filip Dujic,Match Report,,New York City FC
+2024-04-06,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,Atlanta Utd,2.4,1.9,53.0,21497.0,Thiago Martins,4-2-3-1,R. Mendoza,Match Report,,New York City FC
+2024-04-13,19:30,MLS,Regular Season,Sat,Home,W,2.0,0.0,NE Revolution,2.5,0.4,52.0,20744.0,Thiago Martins,4-2-3-1,Pierre-Luc Lauzière,Match Report,,New York City FC
+2024-04-20,19:30,MLS,Regular Season,Sat,Home,W,2.0,0.0,D.C. United,3.0,0.6,48.0,21073.0,Thiago Martins,4-2-3-1,Malik Badawi,Match Report,,New York City FC
+2024-04-27,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,Charlotte,1.4,1.1,57.0,,Thiago Martins,4-2-3-1,Ismir Pekmic,Match Report,,New York City FC
+2024-05-05,16:00,MLS,Regular Season,Sun,Home,L,0.0,2.0,Rapids,1.3,0.6,66.0,19456.0,Thiago Martins,4-2-3-1,Allen Chapman,Match Report,,New York City FC
+2024-05-11,19:30,MLS,Regular Season,Sat,Away,W,3.0,2.0,Toronto FC,2.4,1.9,40.0,26925.0,Thiago Martins,4-2-3-1,Lukasz Szpala,Match Report,,New York City FC
+2024-05-15,19:30,MLS,Regular Season,Wed,Away,W,2.0,1.0,Philadelphia,1.3,2.1,43.0,18531.0,Thiago Martins,4-2-3-1,Chris Penso,Match Report,,New York City FC
+2024-05-18,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,NY Red Bulls,1.2,1.0,59.0,30731.0,Thiago Martins,4-2-3-1,R. Mendoza,Match Report,,New York City FC
+2024-05-25,19:30,MLS,Regular Season,Sat,Away,W,1.0,0.0,NE Revolution,1.5,0.7,43.0,26625.0,Thiago Martins,4-2-3-1,Ted Unkel,Match Report,,New York City FC
+2024-05-31,19:30,MLS,Regular Season,Fri,Home,W,5.0,1.0,SJ Earthquakes,2.7,1.0,58.0,20188.0,James Sands,4-2-3-1,Mark Allatin,Match Report,,New York City FC
+2024-02-24,14:00,MLS,Regular Season,Sat,Home,W,1.0,0.0,Atlanta Utd,1.8,0.5,48.0,20406.0,Darlington Nagbe,3-4-3,Rafael Bonilla,Match Report,,Columbus Crew
+2024-03-02,13:00,MLS,Regular Season,Sat,Away,D,1.0,1.0,Minnesota Utd,1.4,0.8,56.0,19906.0,Darlington Nagbe,3-4-3,Amin Hadzic,Match Report,,Columbus Crew
+2024-03-09,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,Fire,1.3,1.9,58.0,20327.0,Darlington Nagbe,3-4-3,Richonne Clark,Match Report,,Columbus Crew
+2024-03-16,19:30,MLS,Regular Season,Sat,Home,W,3.0,0.0,NY Red Bulls,2.0,0.3,59.0,20314.0,Darlington Nagbe,3-4-3,Andrew Musashe,Match Report,,Columbus Crew
+2024-03-23,19:30,MLS,Regular Season,Sat,Away,L,0.0,2.0,Charlotte,0.9,1.7,55.0,30104.0,Darlington Nagbe,3-4-3,Christopher Calderón,Match Report,,Columbus Crew
+2024-03-30,19:30,MLS,Regular Season,Sat,Away,D,2.0,2.0,Nashville,1.4,1.7,64.0,28613.0,Darlington Nagbe,5-3-2,Jon Freemon,Match Report,,Columbus Crew
+2024-04-06,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,D.C. United,0.6,1.9,67.0,20740.0,Darlington Nagbe,3-4-3,Pierre-Luc Lauzière,Match Report,,Columbus Crew
+2024-04-13,19:30,MLS,Regular Season,Sat,Away,D,0.0,0.0,RSL,0.6,1.8,54.0,20033.0,Evan Bush,3-4-3,Ramy Touchan,Match Report,,Columbus Crew
+2024-04-20,19:30,MLS,Regular Season,Sat,Home,D,2.0,2.0,Portland Timbers,1.5,0.6,65.0,20740.0,Darlington Nagbe,3-4-3,Ted Unkel,Match Report,,Columbus Crew
+2024-04-27,19:30,MLS,Regular Season,Sat,Home,D,0.0,0.0,CF Montréal,1.5,0.6,67.0,20927.0,Aidan Morris,3-4-3,Tori Penso,Match Report,,Columbus Crew
+2024-05-11,19:45,MLS,Regular Season,Sat,Home,L,1.0,2.0,FC Cincinnati,0.8,1.2,54.0,,Darlington Nagbe,3-4-3,Guido Gonzalez,Match Report,,Columbus Crew
+2024-05-15,19:30,MLS,Regular Season,Wed,Away,W,3.0,1.0,CF Montréal,2.5,1.8,56.0,19619.0,Christian Ramirez,3-4-3,Mark Allatin,Match Report,,Columbus Crew
+2024-05-18,19:30,MLS,Regular Season,Sat,Away,W,3.0,1.0,Fire,0.9,1.3,59.0,23319.0,Darlington Nagbe,3-4-3,Ricardo Fierro,Match Report,,Columbus Crew
+2024-05-25,19:30,MLS,Regular Season,Sat,Away,W,2.0,0.0,Orlando City,2.2,1.3,55.0,21726.0,Darlington Nagbe,3-4-3,Jair Marrufo,Match Report,,Columbus Crew
+2024-02-25,16:00,MLS,Regular Season,Sun,Away,D,0.0,0.0,Nashville,1.4,0.1,55.0,30109.0,Emil Forsberg,4-4-2,Cristian Campo,Match Report,,New York Red Bulls
+2024-03-02,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,Dynamo FC,1.0,1.2,43.0,16516.0,Emil Forsberg,4-4-2,Lorenzo Hernandez,Match Report,,New York Red Bulls
+2024-03-09,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,FC Dallas,2.0,0.7,41.0,19284.0,Emil Forsberg,4-2-3-1,Amin Hadzic,Match Report,,New York Red Bulls
+2024-03-16,19:30,MLS,Regular Season,Sat,Away,L,0.0,3.0,Crew,0.3,2.0,41.0,20314.0,Emil Forsberg,4-4-2,Andrew Musashe,Match Report,,New York Red Bulls
+2024-03-23,14:00,MLS,Regular Season,Sat,Home,W,4.0,0.0,Inter Miami,1.2,0.3,31.0,25219.0,Sean Nealis,4-4-2,Rafael Martinez,Match Report,,New York Red Bulls
+2024-03-30,19:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,Orlando City,1.8,0.7,35.0,23859.0,Sean Nealis,4-4-2,Víctor Rivas,Match Report,,New York Red Bulls
+2024-04-06,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,FC Cincinnati,1.2,0.7,45.0,25513.0,Emil Forsberg,4-4-2,Drew Fischer,Match Report,,New York Red Bulls
+2024-04-13,19:30,MLS,Regular Season,Sat,Home,D,0.0,0.0,Fire,1.4,0.6,34.0,17501.0,Emil Forsberg,4-4-2,Boiko Serhii,Match Report,,New York Red Bulls
+2024-04-20,19:30,MLS,Regular Season,Sat,Away,D,2.0,2.0,LAFC,1.0,1.5,42.0,22122.0,Emil Forsberg,4-4-2,Guido Gonzalez,Match Report,,New York Red Bulls
+2024-04-27,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,Vancouver W'caps,1.2,1.0,59.0,17525.0,Emil Forsberg,4-4-2,Mark Allatin,Match Report,,New York Red Bulls
+2024-05-04,19:30,MLS,Regular Season,Sat,Away,L,2.0,6.0,Inter Miami,1.5,2.8,42.0,21488.0,Emil Forsberg,4-4-2,Tori Penso,Match Report,,New York Red Bulls
+2024-05-11,19:30,MLS,Regular Season,Sat,Home,W,4.0,2.0,NE Revolution,3.3,1.2,33.0,,Emil Forsberg,4-4-2,Jon Freemon,Match Report,,New York Red Bulls
+2024-05-15,19:30,MLS,Regular Season,Wed,Away,W,4.0,1.0,D.C. United,2.3,2.8,41.0,17417.0,Emil Forsberg,4-2-3-1,Rubiel Vázquez,Match Report,,New York Red Bulls
+2024-05-18,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,NYCFC,1.0,1.2,41.0,30731.0,Sean Nealis,4-4-2,R. Mendoza,Match Report,,New York Red Bulls
+2024-05-29,19:30,MLS,Regular Season,Wed,Home,W,3.0,1.0,Charlotte,1.4,0.6,49.0,,Emil Forsberg,4-2-2-2,Chris Penso,Match Report,,New York Red Bulls
+2024-06-01,19:30,MLS,Regular Season,Sat,Home,W,1.0,0.0,Orlando City,0.8,0.4,36.0,,Emil Forsberg,4-4-2,Drew Fischer,Match Report,,New York Red Bulls
+2024-02-25,14:30,MLS,Regular Season,Sun,Away,D,0.0,0.0,FC Cincinnati,0.5,0.9,48.0,25513.0,Jonathan Osorio,3-4-3,Jonathan Weiner,Match Report,,Toronto FC
+2024-03-03,14:00,MLS,Regular Season,Sun,Away,W,1.0,0.0,NE Revolution,0.7,1.8,37.0,29293.0,Jonathan Osorio,3-4-3,Wesley Costa,Match Report,,Toronto FC
+2024-03-09,14:00,MLS,Regular Season,Sat,Home,W,1.0,0.0,Charlotte,0.5,0.9,59.0,26345.0,Jonathan Osorio,3-4-3,Chris Grabas,Match Report,,Toronto FC
+2024-03-16,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,NYCFC,1.3,1.4,47.0,18623.0,Shane O'Neill,3-4-3,Muhammad Hassan,Match Report,,Toronto FC
+2024-03-23,19:30,MLS,Regular Season,Sat,Home,W,2.0,0.0,Atlanta Utd,2.4,0.4,45.0,25768.0,Lorenzo Insigne,3-4-3,Scott Bowman,Match Report,,Toronto FC
+2024-03-30,19:30,MLS,Regular Season,Sat,Home,L,1.0,3.0,Sporting KC,1.4,1.2,61.0,24382.0,Jonathan Osorio,3-4-3,Guido Gonzalez,Match Report,,Toronto FC
+2024-04-06,16:30,MLS,Regular Season,Sat,Away,L,0.0,4.0,Vancouver W'caps,0.7,2.5,50.0,24678.0,Jonathan Osorio,3-4-3,Ramy Touchan,Match Report,,Toronto FC
+2024-04-13,19:30,MLS,Regular Season,Sat,Away,L,2.0,3.0,Charlotte,1.8,1.0,56.0,31414.0,Jonathan Osorio,3-5-2,Allen Chapman,Match Report,,Toronto FC
+2024-04-20,19:30,MLS,Regular Season,Sat,Home,W,1.0,0.0,NE Revolution,1.5,1.5,40.0,24108.0,Jonathan Osorio,3-4-3,Mark Allatin,Match Report,,Toronto FC
+2024-04-27,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,Orlando City,1.5,0.9,52.0,21689.0,Jonathan Osorio,3-4-3,Armando Villarreal,Match Report,,Toronto FC
+2024-05-04,19:30,MLS,Regular Season,Sat,Home,W,3.0,1.0,FC Dallas,1.4,0.4,57.0,24257.0,Jonathan Osorio,3-4-3,Pierre-Luc Lauzière,Match Report,,Toronto FC
+2024-05-11,19:30,MLS,Regular Season,Sat,Home,L,2.0,3.0,NYCFC,1.9,2.4,60.0,26925.0,Jonathan Osorio,3-4-3,Lukasz Szpala,Match Report,,Toronto FC
+2024-05-15,19:30,MLS,Regular Season,Wed,Away,L,0.0,2.0,Nashville,0.4,0.8,43.0,27868.0,Raoul Petretta,3-5-2,Marcos de Oliveira,Match Report,,Toronto FC
+2024-05-18,19:30,MLS,Regular Season,Sat,Home,W,5.0,1.0,CF Montréal,3.2,2.1,51.0,28261.0,Lorenzo Insigne,3-4-3,Allen Chapman,Match Report,,Toronto FC
+2024-05-25,19:30,MLS,Regular Season,Sat,Home,L,3.0,4.0,FC Cincinnati,1.3,1.5,50.0,27941.0,Jonathan Osorio,3-4-3,Víctor Rivas,Match Report,,Toronto FC
+2024-05-29,19:30,MLS,Regular Season,Wed,Away,D,0.0,0.0,Philadelphia,1.2,0.7,51.0,18535.0,Jonathan Osorio,3-5-2,Rubiel Vázquez,Match Report,,Toronto FC
+2024-06-01,19:30,MLS,Regular Season,Sat,Away,D,2.0,2.0,D.C. United,0.8,2.9,42.0,19215.0,Jonathan Osorio,3-5-2,Jon Freemon,Match Report,,Toronto FC
+2024-02-24,19:30,MLS,Regular Season,Sat,Home,W,1.0,0.0,NYCFC,2.0,0.5,38.0,62291.0,Ashley Westwood,4-2-3-1,Mario Maric,Match Report,,Charlotte FC
+2024-03-02,16:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,Vancouver W'caps,1.3,1.0,51.0,29624.0,Ashley Westwood,4-2-3-1,Scott Bowman,Match Report,,Charlotte FC
+2024-03-09,14:00,MLS,Regular Season,Sat,Away,L,0.0,1.0,Toronto FC,0.9,0.5,41.0,26345.0,Ashley Westwood,4-2-3-1,Chris Grabas,Match Report,,Charlotte FC
+2024-03-16,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,Nashville,1.3,1.1,48.0,28008.0,Ashley Westwood,4-3-3,Esteban Rosano,Match Report,,Charlotte FC
+2024-03-23,19:30,MLS,Regular Season,Sat,Home,W,2.0,0.0,Crew,1.7,0.9,45.0,30104.0,Ashley Westwood,4-2-3-1,Christopher Calderón,Match Report,,Charlotte FC
+2024-03-30,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,FC Cincinnati,2.3,1.6,39.0,30043.0,Ashley Westwood,4-3-3,Rubiel Vázquez,Match Report,,Charlotte FC
+2024-04-06,19:30,MLS,Regular Season,Sat,Away,L,0.0,1.0,NE Revolution,0.6,1.1,52.0,22196.0,Ashley Westwood,4-2-3-1,Serhii Boiko,Match Report,,Charlotte FC
+2024-04-13,19:30,MLS,Regular Season,Sat,Home,W,3.0,2.0,Toronto FC,1.0,1.8,44.0,31414.0,Ashley Westwood,4-2-3-1,Allen Chapman,Match Report,,Charlotte FC
+2024-04-21,18:00,MLS,Regular Season,Sun,Home,L,0.0,3.0,Minnesota Utd,0.9,1.7,57.0,27021.0,Ashley Westwood,4-2-3-1,Pierre-Luc Lauzière,Match Report,,Charlotte FC
+2024-04-27,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,NYCFC,1.1,1.4,43.0,,Ashley Westwood,4-3-3,Ismir Pekmic,Match Report,,Charlotte FC
+2024-05-04,19:30,MLS,Regular Season,Sat,Home,W,2.0,0.0,Portland Timbers,1.4,0.4,45.0,27495.0,Ashley Westwood,4-3-3,Malik Badawi,Match Report,,Charlotte FC
+2024-05-11,19:30,MLS,Regular Season,Sat,Home,W,1.0,0.0,Nashville,0.4,0.1,52.0,36319.0,Ashley Westwood,4-3-3,Tori Penso,Match Report,,Charlotte FC
+2024-05-15,19:30,MLS,Regular Season,Wed,Away,W,1.0,0.0,Fire,0.5,1.0,38.0,12806.0,Ashley Westwood,4-2-3-1,Víctor Rivas,Match Report,,Charlotte FC
+2024-05-18,19:30,MLS,Regular Season,Sat,Home,D,0.0,0.0,LA Galaxy,1.2,1.5,34.0,29099.0,Ashley Westwood,4-3-3,Joe Dickerson,Match Report,,Charlotte FC
+2024-05-25,19:30,MLS,Regular Season,Sat,Home,D,0.0,0.0,Philadelphia,1.0,0.9,65.0,32232.0,Ashley Westwood,4-2-3-1,Guido Gonzalez,Match Report,,Charlotte FC
+2024-05-29,19:30,MLS,Regular Season,Wed,Away,L,1.0,3.0,NY Red Bulls,0.6,1.4,51.0,,Ashley Westwood,4-3-3,Chris Penso,Match Report,,Charlotte FC
+2024-06-02,16:45,MLS,Regular Season,Sun,Away,W,3.0,2.0,Atlanta Utd,1.0,2.1,40.0,61209.0,Ashley Westwood,4-3-3,Ismir Pekmic,Match Report,,Charlotte FC
+2024-02-24,19:30,MLS,Regular Season,Sat,Home,D,2.0,2.0,Fire,2.1,1.6,55.0,18734.0,Jakob Glesnes,4-1-2-1-2◆,Muhammad Hassan,Match Report,,Philadelphia Union
+2024-03-02,19:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,Sporting KC,0.5,0.9,41.0,19942.0,Jack Elliott,4-1-2-1-2◆,Rafael Bonilla,Match Report,,Philadelphia Union
+2024-03-16,19:30,MLS,Regular Season,Sat,Away,D,2.0,2.0,Austin,2.4,1.2,46.0,20738.0,Andre Blake,4-3-1-2,Wesley Costa,Match Report,,Philadelphia Union
+2024-03-23,19:30,MLS,Regular Season,Sat,Away,W,3.0,1.0,Portland Timbers,1.9,1.8,29.0,23046.0,Alejandro Bedoya,4-1-2-1-2◆,Cristian Campo Hernández,Match Report,,Philadelphia Union
+2024-03-30,14:00,MLS,Regular Season,Sat,Home,W,2.0,0.0,Minnesota Utd,2.1,0.6,46.0,19047.0,Andre Blake,4-1-2-1-2◆,Serhii Boiko,Match Report,,Philadelphia Union
+2024-04-06,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,Nashville,1.9,1.7,48.0,27739.0,Jakob Glesnes,3-4-1-2,Víctor Rivas,Match Report,,Philadelphia Union
+2024-04-14,14:30,MLS,Regular Season,Sun,Away,D,2.0,2.0,Atlanta Utd,1.1,1.6,38.0,42763.0,Alejandro Bedoya,4-1-2-1-2◆,Jon Freemon,Match Report,,Philadelphia Union
+2024-04-27,19:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,RSL,1.8,0.5,50.0,19048.0,Alejandro Bedoya,4-1-2-1-2◆,Malik Badawi,Match Report,,Philadelphia Union
+2024-04-30,19:30,MLS,Regular Season,Tue,Home,L,2.0,3.0,Seattle,1.2,2.2,58.0,18525.0,Andre Blake,4-1-2-1-2◆,Joe Dickerson,Match Report,,Philadelphia Union
+2024-05-04,19:30,MLS,Regular Season,Sat,Away,D,2.0,2.0,D.C. United,0.6,1.1,52.0,17237.0,Alejandro Bedoya,4-4-2,Ismir Pekmic,Match Report,,Philadelphia Union
+2024-05-11,19:30,MLS,Regular Season,Sat,Home,L,2.0,3.0,Orlando City,3.8,1.2,61.0,19028.0,Alejandro Bedoya,4-3-1-2,Tim Ford,Match Report,,Philadelphia Union
+2024-05-15,19:30,MLS,Regular Season,Wed,Home,L,1.0,2.0,NYCFC,2.1,1.3,57.0,18531.0,Jakob Glesnes,4-3-1-2,Chris Penso,Match Report,,Philadelphia Union
+2024-05-18,19:30,MLS,Regular Season,Sat,Away,W,3.0,0.0,NE Revolution,2.2,1.4,58.0,34947.0,Alejandro Bedoya,4-3-1-2,Filip Dujic,Match Report,,Philadelphia Union
+2024-05-25,19:30,MLS,Regular Season,Sat,Away,D,0.0,0.0,Charlotte,0.9,1.0,35.0,32232.0,Jakob Glesnes,4-3-1-2,Guido Gonzalez,Match Report,,Philadelphia Union
+2024-05-29,19:30,MLS,Regular Season,Wed,Home,D,0.0,0.0,Toronto FC,0.7,1.2,49.0,18535.0,Alejandro Bedoya,4-1-2-1-2◆,Rubiel Vázquez,Match Report,,Philadelphia Union
+2024-06-01,19:30,MLS,Regular Season,Sat,Home,D,2.0,2.0,CF Montréal,2.7,1.1,66.0,19026.0,Jakob Glesnes,3-5-2,Ted Unkel,Match Report,,Philadelphia Union
+2024-02-24,19:30,MLS,Regular Season,Sat,Home,W,3.0,1.0,NE Revolution,4.5,0.8,53.0,19215.0,Christian Benteke,4-2-3-1,Andrew Musashe,Match Report,,DC United
+2024-03-02,19:30,MLS,Regular Season,Sat,Away,D,2.0,2.0,Portland Timbers,2.0,0.8,58.0,20221.0,Pedro Santos,4-2-3-1,Trevor Wiseman,Match Report,,DC United
+2024-03-10,15:00,MLS,Regular Season,Sun,Away,D,0.0,0.0,FC Cincinnati,0.5,1.7,42.0,25513.0,Pedro Santos,4-3-3,Cristian Campo Hernández,Match Report,,DC United
+2024-03-16,14:00,MLS,Regular Season,Sat,Home,L,1.0,3.0,Inter Miami,1.4,2.3,48.0,19365.0,Christian Benteke,4-1-3-2,Lorenzo Hernandez,Match Report,,DC United
+2024-03-23,19:30,MLS,Regular Season,Sat,Away,D,2.0,2.0,St. Louis,1.9,2.0,43.0,22423.0,Christian Benteke,4-2-3-1,Amin Hadzic,Match Report,,DC United
+2024-03-30,19:30,MLS,Regular Season,Sat,Home,W,1.0,0.0,CF Montréal,2.1,0.8,44.0,18402.0,Christian Benteke,4-2-3-1,Ramy Touchan,Match Report,,DC United
+2024-04-06,19:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,Crew,1.9,0.6,33.0,20740.0,Christian Benteke,4-2-3-1,Pierre-Luc Lauzière,Match Report,,DC United
+2024-04-13,19:30,MLS,Regular Season,Sat,Home,L,2.0,3.0,Orlando City,1.5,1.8,52.0,18615.0,Christian Benteke,3-4-3,Guido Gonzalez,Match Report,,DC United
+2024-04-20,19:30,MLS,Regular Season,Sat,Away,L,0.0,2.0,NYCFC,0.6,3.0,52.0,21073.0,Christian Benteke,3-1-4-2,Malik Badawi,Match Report,,DC United
+2024-04-27,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,Seattle,1.9,1.4,57.0,18223.0,Christian Benteke,4-1-3-2,R. Mendoza,Match Report,,DC United
+2024-05-04,19:30,MLS,Regular Season,Sat,Home,D,2.0,2.0,Philadelphia,1.1,0.6,48.0,17237.0,Christian Benteke,3-4-3,Ismir Pekmic,Match Report,,DC United
+2024-05-11,19:30,MLS,Regular Season,Sat,Away,W,3.0,2.0,Atlanta Utd,2.3,1.3,37.0,42822.0,Christian Benteke,5-3-2,Joe Dickerson,Match Report,,DC United
+2024-05-15,19:30,MLS,Regular Season,Wed,Home,L,1.0,4.0,NY Red Bulls,2.8,2.3,59.0,17417.0,Christian Benteke,5-3-2,Rubiel Vázquez,Match Report,,DC United
+2024-05-18,19:30,MLS,Regular Season,Sat,Away,L,0.0,1.0,Inter Miami,1.1,1.1,34.0,21318.0,Steve Birnbaum,5-3-2,Guido Gonzalez,Match Report,,DC United
+2024-05-25,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,Fire,1.2,0.9,48.0,19081.0,Steve Birnbaum,3-4-3,Mark Allatin,Match Report,,DC United
+2024-05-29,19:30,MLS,Regular Season,Wed,Away,L,2.0,4.0,CF Montréal,1.4,2.4,46.0,19619.0,Steve Birnbaum,4-1-4-1,Ismail Elfath,Match Report,,DC United
+2024-06-01,19:30,MLS,Regular Season,Sat,Home,D,2.0,2.0,Toronto FC,2.9,0.8,58.0,19215.0,Steve Birnbaum,3-4-3,Jon Freemon,Match Report,,DC United
+2024-02-24,19:30,MLS,Regular Season,Sat,Home,D,0.0,0.0,CF Montréal,0.9,1.0,60.0,24249.0,Robin Jansson,4-2-3-1,Rafael Martinez,Match Report,,Orlando City
+2024-03-02,16:30,MLS,Regular Season,Sat,Away,L,0.0,5.0,Inter Miami,0.8,2.8,53.0,21352.0,Robin Jansson,4-2-3-1,Jaime Herrera,Match Report,,Orlando City
+2024-03-09,19:30,MLS,Regular Season,Sat,Home,L,2.0,3.0,Minnesota Utd,4.1,1.4,59.0,23025.0,Robin Jansson,4-2-3-1,Wilmer Pino Mercado,Match Report,,Orlando City
+2024-03-17,19:00,MLS,Regular Season,Sun,Away,L,0.0,2.0,Atlanta Utd,0.5,0.8,57.0,426131.0,Robin Jansson,4-4-2,Cristian Campo Hernández,Match Report,,Orlando City
+2024-03-23,19:30,MLS,Regular Season,Sat,Home,W,2.0,0.0,Austin,1.9,0.2,43.0,20985.0,Robin Jansson,4-4-2,Esteban Rosano,Match Report,,Orlando City
+2024-03-30,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,NY Red Bulls,0.7,1.8,65.0,23859.0,Robin Jansson,4-4-2,Víctor Rivas,Match Report,,Orlando City
+2024-04-13,19:30,MLS,Regular Season,Sat,Away,W,3.0,2.0,D.C. United,1.8,1.5,48.0,18615.0,Robin Jansson,4-2-3-1,Guido Gonzalez,Match Report,,Orlando City
+2024-04-20,19:30,MLS,Regular Season,Sat,Away,D,2.0,2.0,CF Montréal,1.5,1.5,47.0,19619.0,Robin Jansson,4-2-3-1,Jon Freemon,Match Report,,Orlando City
+2024-04-27,19:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,Toronto FC,0.9,1.5,48.0,21689.0,Robin Jansson,4-2-3-1,Armando Villarreal,Match Report,,Orlando City
+2024-05-04,19:30,MLS,Regular Season,Sat,Home,L,0.0,1.0,FC Cincinnati,0.7,1.0,42.0,21218.0,Robin Jansson,4-2-3-1,Ismail Elfath,Match Report,,Orlando City
+2024-05-11,19:30,MLS,Regular Season,Sat,Away,W,3.0,2.0,Philadelphia,1.2,3.8,39.0,19028.0,Robin Jansson,3-5-2,Tim Ford,Match Report,,Orlando City
+2024-05-15,19:30,MLS,Regular Season,Wed,Home,D,0.0,0.0,Inter Miami,0.7,0.6,42.0,25046.0,Pedro Gallese,3-5-2,R. Mendoza,Match Report,,Orlando City
+2024-05-18,19:30,MLS,Regular Season,Sat,Away,W,1.0,0.0,SJ Earthquakes,1.9,0.6,50.0,14172.0,Pedro Gallese,3-1-4-2,Malik Badawi,Match Report,,Orlando City
+2024-05-25,19:30,MLS,Regular Season,Sat,Home,L,0.0,2.0,Crew,1.3,2.2,45.0,21726.0,Pedro Gallese,3-1-4-2,Jair Marrufo,Match Report,,Orlando City
+2024-05-29,19:30,MLS,Regular Season,Wed,Away,D,1.0,1.0,Fire,0.8,1.0,51.0,11372.0,Robin Jansson,3-4-3,Malik Badawi,Match Report,,Orlando City
+2024-06-01,19:30,MLS,Regular Season,Sat,Away,L,0.0,1.0,NY Red Bulls,0.4,0.8,64.0,,Pedro Gallese,3-1-4-2,Drew Fischer,Match Report,,Orlando City
+2024-02-25,16:00,MLS,Regular Season,Sun,Home,D,0.0,0.0,NY Red Bulls,0.1,1.4,45.0,30109.0,Sean Davis,4-3-3,Cristian Campo,Match Report,,Nashville SC
+2024-03-02,19:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,Rapids,1.5,0.6,49.0,16223.0,Walker Zimmerman,3-4-1-2,Esteban Rosano,Match Report,,Nashville SC
+2024-03-10,14:00,MLS,Regular Season,Sun,Home,D,2.0,2.0,LA Galaxy,1.3,1.9,38.0,28316.0,Teal Bunbury,3-4-3,Wesley Costa,Match Report,,Nashville SC
+2024-03-16,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,Charlotte,1.1,1.3,52.0,28008.0,Hany Mukhtar,4-2-3-1,Esteban Rosano,Match Report,,Nashville SC
+2024-03-23,19:30,MLS,Regular Season,Sat,Away,L,0.0,5.0,LAFC,0.5,4.8,55.0,22000.0,Hany Mukhtar,4-2-3-1,Erick Lezama,Match Report,,Nashville SC
+2024-03-30,19:30,MLS,Regular Season,Sat,Home,D,2.0,2.0,Crew,1.7,1.4,36.0,28613.0,Hany Mukhtar,3-5-2,Jon Freemon,Match Report,,Nashville SC
+2024-04-06,19:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,Philadelphia,1.7,1.9,52.0,27739.0,Hany Mukhtar,3-5-2,Víctor Rivas,Match Report,,Nashville SC
+2024-04-20,19:30,MLS,Regular Season,Sat,Away,L,1.0,3.0,Inter Miami,2.4,2.6,48.0,21398.0,Hany Mukhtar,3-5-2,Ismail Elfath,Match Report,,Nashville SC
+2024-04-27,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,SJ Earthquakes,0.9,1.1,55.0,28984.0,Hany Mukhtar,5-3-2,Allen Chapman,Match Report,,Nashville SC
+2024-05-04,19:30,MLS,Regular Season,Sat,Home,W,4.0,1.0,CF Montréal,2.7,0.8,39.0,28600.0,Walker Zimmerman,5-3-2,R. Mendoza,Match Report,,Nashville SC
+2024-05-11,19:30,MLS,Regular Season,Sat,Away,L,0.0,1.0,Charlotte,0.1,0.4,48.0,36319.0,Hany Mukhtar,3-5-2,Tori Penso,Match Report,,Nashville SC
+2024-05-15,19:30,MLS,Regular Season,Wed,Home,W,2.0,0.0,Toronto FC,0.8,0.4,57.0,27868.0,Walker Zimmerman,3-5-2,Marcos de Oliveira,Match Report,,Nashville SC
+2024-05-18,12:45,MLS,Regular Season,Sat,Home,D,1.0,1.0,Atlanta Utd,1.4,0.7,49.0,28377.0,Walker Zimmerman,4-4-2,Drew Fischer,Match Report,,Nashville SC
+2024-05-25,19:30,MLS,Regular Season,Sat,Away,D,0.0,0.0,CF Montréal,0.8,1.2,46.0,19619.0,Walker Zimmerman,4-2-3-1,Tim Ford,Match Report,,Nashville SC
+2024-05-29,19:30,MLS,Regular Season,Wed,Away,W,2.0,0.0,FC Cincinnati,1.0,1.3,41.0,25513.0,Walker Zimmerman,4-2-3-1,Jair Marrufo,Match Report,,Nashville SC
+2024-06-01,19:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,NE Revolution,3.2,0.7,63.0,26842.0,Walker Zimmerman,4-2-3-1,Ismail Elfath,Match Report,,Nashville SC
+2024-02-24,14:00,MLS,Regular Season,Sat,Away,L,0.0,1.0,Crew,0.5,1.8,52.0,20406.0,Brad Guzan,4-2-3-1,Rafael Bonilla,Match Report,,Atlanta United
+2024-03-09,19:30,MLS,Regular Season,Sat,Home,W,4.0,1.0,NE Revolution,3.2,0.7,45.0,67727.0,Brad Guzan,4-2-3-1,Rafael Martinez,Match Report,,Atlanta United
+2024-03-17,19:00,MLS,Regular Season,Sun,Home,W,2.0,0.0,Orlando City,0.8,0.5,43.0,426131.0,Brad Guzan,4-2-3-1,Cristian Campo Hernández,Match Report,,Atlanta United
+2024-03-23,19:30,MLS,Regular Season,Sat,Away,L,0.0,2.0,Toronto FC,0.4,2.4,55.0,25768.0,Brad Guzan,3-4-3,Scott Bowman,Match Report,,Atlanta United
+2024-03-31,15:30,MLS,Regular Season,Sun,Home,W,3.0,0.0,Fire,2.7,0.7,51.0,42525.0,Brad Guzan,4-2-3-1,Lukasz Szpala,Match Report,,Atlanta United
+2024-04-06,19:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,NYCFC,1.9,2.4,47.0,21497.0,Brad Guzan,4-2-3-1,R. Mendoza,Match Report,,Atlanta United
+2024-04-14,14:30,MLS,Regular Season,Sun,Home,D,2.0,2.0,Philadelphia,1.6,1.1,62.0,42763.0,Brad Guzan,4-2-3-1,Jon Freemon,Match Report,,Atlanta United
+2024-04-20,19:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,FC Cincinnati,1.9,2.0,58.0,42600.0,Brad Guzan,4-2-3-1,Armando Villarreal,Match Report,,Atlanta United
+2024-04-27,19:30,MLS,Regular Season,Sat,Away,D,0.0,0.0,Fire,1.3,1.0,63.0,18236.0,Brad Guzan,4-2-3-1,Filip Dujic,Match Report,,Atlanta United
+2024-05-04,19:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,Minnesota Utd,1.7,0.5,68.0,43338.0,Brad Guzan,4-4-2,Guido Gonzalez,Match Report,,Atlanta United
+2024-05-11,19:30,MLS,Regular Season,Sat,Home,L,2.0,3.0,D.C. United,1.3,2.3,63.0,42822.0,Brad Guzan,4-2-3-1,Joe Dickerson,Match Report,,Atlanta United
+2024-05-15,19:30,MLS,Regular Season,Wed,Away,L,0.0,1.0,FC Cincinnati,0.5,1.1,51.0,24593.0,Brad Guzan,4-3-3,Ted Unkel,Match Report,,Atlanta United
+2024-05-18,12:45,MLS,Regular Season,Sat,Away,D,1.0,1.0,Nashville,0.7,1.4,51.0,28377.0,Brad Guzan,4-2-3-1,Drew Fischer,Match Report,,Atlanta United
+2024-05-25,19:30,MLS,Regular Season,Sat,Home,L,0.0,1.0,LAFC,1.3,0.9,63.0,43128.0,Brad Guzan,4-4-2,Boiko Serhii,Match Report,,Atlanta United
+2024-05-29,19:30,MLS,Regular Season,Wed,Away,W,3.0,1.0,Inter Miami,3.5,0.7,39.0,21326.0,Thiago Almada,3-4-3,Armando Villarreal,Match Report,,Atlanta United
+2024-06-02,16:45,MLS,Regular Season,Sun,Home,L,2.0,3.0,Charlotte,2.1,1.0,60.0,61209.0,Thiago Almada,3-4-3,Ismir Pekmic,Match Report,,Atlanta United
+2024-02-24,19:30,MLS,Regular Season,Sat,Away,D,0.0,0.0,Orlando City,1.0,0.9,40.0,24249.0,Samuel Piette,3-4-3,Rafael Martinez,Match Report,,CF Montréal
+2024-03-02,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,FC Dallas,1.5,0.9,45.0,19096.0,Samuel Piette,3-4-3,Kyle Johnston,Match Report,,CF Montréal
+2024-03-10,17:00,MLS,Regular Season,Sun,Away,W,3.0,2.0,Inter Miami,2.0,2.7,40.0,21212.0,Samuel Piette,3-4-3,Aleksandar Zhelyazkov,Match Report,,CF Montréal
+2024-03-16,13:00,MLS,Regular Season,Sat,Away,L,3.0,4.0,Fire,3.0,2.2,39.0,14874.0,Samuel Piette,3-4-3,DeShun Beard,Match Report,,CF Montréal
+2024-03-30,19:30,MLS,Regular Season,Sat,Away,L,0.0,1.0,D.C. United,0.8,2.1,56.0,18402.0,Samuel Piette,3-4-3,Ramy Touchan,Match Report,,CF Montréal
+2024-04-06,19:30,MLS,Regular Season,Sat,Away,L,0.0,5.0,Seattle,0.5,3.6,41.0,30013.0,Samuel Piette,3-1-4-2,Filip Dujic,Match Report,,CF Montréal
+2024-04-13,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,FC Cincinnati,1.1,1.0,50.0,19619.0,Samuel Piette,3-4-3,Lukasz Szpala,Match Report,,CF Montréal
+2024-04-20,19:30,MLS,Regular Season,Sat,Home,D,2.0,2.0,Orlando City,1.5,1.5,53.0,19619.0,Samuel Piette,3-4-3,Jon Freemon,Match Report,,CF Montréal
+2024-04-27,19:30,MLS,Regular Season,Sat,Away,D,0.0,0.0,Crew,0.6,1.5,33.0,20927.0,Samuel Piette,3-4-1-2,Tori Penso,Match Report,,CF Montréal
+2024-05-04,19:30,MLS,Regular Season,Sat,Away,L,1.0,4.0,Nashville,0.8,2.7,61.0,28600.0,Samuel Piette,3-4-1-2,R. Mendoza,Match Report,,CF Montréal
+2024-05-11,19:30,MLS,Regular Season,Sat,Home,L,2.0,3.0,Inter Miami,1.3,1.2,53.0,19619.0,Samuel Piette,3-4-3,Drew Fischer,Match Report,,CF Montréal
+2024-05-15,19:30,MLS,Regular Season,Wed,Home,L,1.0,3.0,Crew,1.8,2.5,44.0,19619.0,Joel Waterman,3-4-3,Mark Allatin,Match Report,,CF Montréal
+2024-05-18,19:30,MLS,Regular Season,Sat,Away,L,1.0,5.0,Toronto FC,2.1,3.2,49.0,28261.0,Samuel Piette,3-4-3,Allen Chapman,Match Report,,CF Montréal
+2024-05-25,19:30,MLS,Regular Season,Sat,Home,D,0.0,0.0,Nashville,1.2,0.8,54.0,19619.0,Samuel Piette,3-4-3,Tim Ford,Match Report,,CF Montréal
+2024-05-29,19:30,MLS,Regular Season,Wed,Home,W,4.0,2.0,D.C. United,2.4,1.4,54.0,19619.0,Samuel Piette,3-4-3,Ismail Elfath,Match Report,,CF Montréal
+2024-06-01,19:30,MLS,Regular Season,Sat,Away,D,2.0,2.0,Philadelphia,1.1,2.7,34.0,19026.0,Samuel Piette,3-4-3,Ted Unkel,Match Report,,CF Montréal
+2024-02-24,19:30,MLS,Regular Season,Sat,Away,D,2.0,2.0,Philadelphia,1.6,2.1,45.0,18734.0,Xherdan Shaqiri,4-2-3-1,Muhammad Hassan,Match Report,,Chicago Fire
+2024-03-02,19:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,FC Cincinnati,1.0,0.9,51.0,26592.0,Xherdan Shaqiri,3-4-3,Mario Maric,Match Report,,Chicago Fire
+2024-03-09,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,Crew,1.9,1.3,42.0,20327.0,Xherdan Shaqiri,4-2-3-1,Richonne Clark,Match Report,,Chicago Fire
+2024-03-16,13:00,MLS,Regular Season,Sat,Home,W,4.0,3.0,CF Montréal,2.2,3.0,61.0,14874.0,Xherdan Shaqiri,4-2-3-1,DeShun Beard,Match Report,,Chicago Fire
+2024-03-23,14:00,MLS,Regular Season,Sat,Away,D,1.0,1.0,NE Revolution,0.9,1.5,36.0,15269.0,Fabian Herbers,4-2-3-1,Kyle Johnston,Match Report,,Chicago Fire
+2024-03-31,15:30,MLS,Regular Season,Sun,Away,L,0.0,3.0,Atlanta Utd,0.7,2.7,49.0,42525.0,Fabian Herbers,4-2-3-1,Lukasz Szpala,Match Report,,Chicago Fire
+2024-04-06,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,Dynamo FC,1.4,1.0,41.0,18844.0,Xherdan Shaqiri,4-2-3-1,Malik Badawi,Match Report,,Chicago Fire
+2024-04-13,19:30,MLS,Regular Season,Sat,Away,D,0.0,0.0,NY Red Bulls,0.6,1.4,66.0,17501.0,Xherdan Shaqiri,4-2-3-1,Boiko Serhii,Match Report,,Chicago Fire
+2024-04-20,19:30,MLS,Regular Season,Sat,Home,L,0.0,4.0,RSL,1.2,1.8,47.0,14247.0,Xherdan Shaqiri,4-2-3-1,Marcos de Oliveira,Match Report,,Chicago Fire
+2024-04-27,19:30,MLS,Regular Season,Sat,Home,D,0.0,0.0,Atlanta Utd,1.0,1.3,37.0,18236.0,Fabian Herbers,4-4-2,Filip Dujic,Match Report,,Chicago Fire
+2024-05-04,19:30,MLS,Regular Season,Sat,Home,L,0.0,1.0,NE Revolution,1.1,0.9,52.0,18379.0,Fabian Herbers,4-4-2,Sergii Demianchuk,Match Report,,Chicago Fire
+2024-05-11,19:30,MLS,Regular Season,Sat,Away,L,1.0,3.0,St. Louis,1.0,2.3,52.0,22500.0,Xherdan Shaqiri,4-2-3-1,Pierre-Luc Lauzière,Match Report,,Chicago Fire
+2024-05-15,19:30,MLS,Regular Season,Wed,Home,L,0.0,1.0,Charlotte,1.0,0.5,62.0,12806.0,Xherdan Shaqiri,4-2-3-1,Víctor Rivas,Match Report,,Chicago Fire
+2024-05-18,19:30,MLS,Regular Season,Sat,Home,L,1.0,3.0,Crew,1.3,0.9,41.0,23319.0,Fabian Herbers,4-2-3-1,Ricardo Fierro,Match Report,,Chicago Fire
+2024-05-25,19:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,D.C. United,0.9,1.2,52.0,19081.0,Kellyn Acosta,5-3-2,Mark Allatin,Match Report,,Chicago Fire
+2024-05-29,19:30,MLS,Regular Season,Wed,Home,D,1.0,1.0,Orlando City,1.0,0.8,49.0,11372.0,Kellyn Acosta,5-3-2,Malik Badawi,Match Report,,Chicago Fire
+2024-06-01,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,LA Galaxy,1.0,1.5,36.0,25237.0,Fabian Herbers,5-3-2,Marcos de Oliveira,Match Report,,Chicago Fire
+2024-02-24,19:30,MLS,Regular Season,Sat,Away,L,1.0,3.0,D.C. United,0.8,4.5,47.0,19215.0,Carles Gil,4-2-3-1,Andrew Musashe,Match Report,,New England Revolution
+2024-03-03,14:00,MLS,Regular Season,Sun,Home,L,0.0,1.0,Toronto FC,1.8,0.7,63.0,29293.0,Carles Gil,4-2-3-1,Wesley Costa,Match Report,,New England Revolution
+2024-03-09,19:30,MLS,Regular Season,Sat,Away,L,1.0,4.0,Atlanta Utd,0.7,3.2,55.0,67727.0,Carles Gil,4-3-3,Rafael Martinez,Match Report,,New England Revolution
+2024-03-17,14:00,MLS,Regular Season,Sun,Home,L,1.0,2.0,FC Cincinnati,1.2,1.0,61.0,14557.0,Carles Gil,4-2-3-1,Richonne Clark,Match Report,,New England Revolution
+2024-03-23,14:00,MLS,Regular Season,Sat,Home,D,1.0,1.0,Fire,1.5,0.9,64.0,15269.0,Carles Gil,4-2-3-1,Kyle Johnston,Match Report,,New England Revolution
+2024-04-06,19:30,MLS,Regular Season,Sat,Home,W,1.0,0.0,Charlotte,1.1,0.6,48.0,22196.0,Carles Gil,4-2-3-1,Serhii Boiko,Match Report,,New England Revolution
+2024-04-13,19:30,MLS,Regular Season,Sat,Away,L,0.0,2.0,NYCFC,0.4,2.5,48.0,20744.0,Carles Gil,4-2-3-1,Pierre-Luc Lauzière,Match Report,,New England Revolution
+2024-04-20,19:30,MLS,Regular Season,Sat,Away,L,0.0,1.0,Toronto FC,1.5,1.5,60.0,24108.0,Carles Gil,4-2-3-1,Mark Allatin,Match Report,,New England Revolution
+2024-04-27,19:30,MLS,Regular Season,Sat,Home,L,1.0,4.0,Inter Miami,0.4,2.8,45.0,65612.0,Carles Gil,4-2-3-1,Rubiel Vázquez,Match Report,,New England Revolution
+2024-05-04,19:30,MLS,Regular Season,Sat,Away,W,1.0,0.0,Fire,0.9,1.1,48.0,18379.0,Carles Gil,4-2-3-1,Sergii Demianchuk,Match Report,,New England Revolution
+2024-05-11,19:30,MLS,Regular Season,Sat,Away,L,2.0,4.0,NY Red Bulls,1.2,3.3,67.0,,Carles Gil,4-2-3-1,Jon Freemon,Match Report,,New England Revolution
+2024-05-18,19:30,MLS,Regular Season,Sat,Home,L,0.0,3.0,Philadelphia,1.4,2.2,42.0,34947.0,Carles Gil,4-2-3-1,Filip Dujic,Match Report,,New England Revolution
+2024-05-25,19:30,MLS,Regular Season,Sat,Home,L,0.0,1.0,NYCFC,0.7,1.5,57.0,26625.0,Carles Gil,4-2-3-1,Ted Unkel,Match Report,,New England Revolution
+2024-06-01,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,Nashville,0.7,3.2,37.0,26842.0,Carles Gil,4-2-3-1,Ismail Elfath,Match Report,,New England Revolution
+2024-02-21,20:00,MLS,Regular Season,Wed,Away,L,0.0,2.0,Inter Miami,0.8,1.4,45.0,21137.0,Cristian Arango,4-2-3-1,Cristian Campo Hernández,Match Report,,Real Salt Lake
+2024-02-24,19:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,St. Louis,1.7,0.7,60.0,22423.0,Cristian Arango,4-2-3-1,Lorenzo Hernandez,Match Report,,Real Salt Lake
+2024-03-02,12:00,MLS,Regular Season,Sat,Home,W,3.0,0.0,LAFC,2.3,0.7,58.0,19509.0,Cristian Arango,4-2-3-1,Aleksandar Zhelyazkov,Match Report,,Real Salt Lake
+2024-03-09,19:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,Rapids,1.3,1.6,61.0,20147.0,Cristian Arango,4-2-3-1,Atahan Yaya,Match Report,,Real Salt Lake
+2024-03-23,16:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,Vancouver W'caps,0.9,0.6,54.0,22178.0,Cristian Arango,4-2-3-1,Chris Grabas,Match Report,,Real Salt Lake
+2024-03-30,19:30,MLS,Regular Season,Sat,Home,W,3.0,1.0,St. Louis,1.8,0.5,57.0,19357.0,Cristian Arango,4-2-3-1,Drew Fischer,Match Report,,Real Salt Lake
+2024-04-06,19:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,Minnesota Utd,1.0,1.9,42.0,18652.0,Cristian Arango,4-2-3-1,Mark Allatin,Match Report,,Real Salt Lake
+2024-04-13,19:30,MLS,Regular Season,Sat,Home,D,0.0,0.0,Crew,1.8,0.6,46.0,20033.0,Cristian Arango,4-2-3-1,Ramy Touchan,Match Report,,Real Salt Lake
+2024-04-20,19:30,MLS,Regular Season,Sat,Away,W,4.0,0.0,Fire,1.8,1.2,53.0,14247.0,Cristian Arango,4-2-3-1,Marcos de Oliveira,Match Report,,Real Salt Lake
+2024-04-27,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,Philadelphia,0.5,1.8,50.0,19048.0,Cristian Arango,4-2-3-1,Malik Badawi,Match Report,,Real Salt Lake
+2024-05-04,19:30,MLS,Regular Season,Sat,Home,W,1.0,0.0,Sporting KC,0.9,0.3,58.0,20001.0,Cristian Arango,4-2-3-1,Tim Ford,Match Report,,Real Salt Lake
+2024-05-11,19:30,MLS,Regular Season,Sat,Away,D,2.0,2.0,LA Galaxy,1.4,2.8,44.0,,Cristian Arango,4-2-3-1,Rubiel Vázquez,Match Report,,Real Salt Lake
+2024-05-15,19:30,MLS,Regular Season,Wed,Home,W,2.0,0.0,Seattle,2.1,0.5,62.0,,Cristian Arango,4-2-3-1,Ismir Pekmic,Match Report,,Real Salt Lake
+2024-05-18,19:30,MLS,Regular Season,Sat,Home,W,5.0,3.0,Rapids,2.3,2.4,62.0,,Cristian Arango,4-2-3-1,Jon Freemon,Match Report,,Real Salt Lake
+2024-05-25,19:30,MLS,Regular Season,Sat,Away,D,3.0,3.0,FC Dallas,3.1,1.6,60.0,19096.0,Cristian Arango,4-2-3-1,Abdou Ndiaye,Match Report,,Real Salt Lake
+2024-05-29,19:30,MLS,Regular Season,Wed,Away,D,1.0,1.0,Seattle,1.3,0.8,54.0,29244.0,Justen Glad,4-2-3-1,Boiko Serhii,Match Report,,Real Salt Lake
+2024-06-01,19:30,MLS,Regular Season,Sat,Home,W,5.0,1.0,Austin,3.8,1.3,61.0,21078.0,Cristian Arango,4-2-3-1,Alexis Da Silva,Match Report,,Real Salt Lake
+2024-02-24,13:45,MLS,Regular Season,Sat,Home,W,2.0,1.0,Seattle,1.5,1.8,44.0,22214.0,Ilie Sánchez,4-3-3,Wesley Costa,Match Report,,Los Angeles FC
+2024-03-02,12:00,MLS,Regular Season,Sat,Away,L,0.0,3.0,RSL,0.7,2.3,42.0,19509.0,Ilie Sánchez,4-3-3,Aleksandar Zhelyazkov,Match Report,,Los Angeles FC
+2024-03-09,19:30,MLS,Regular Season,Sat,Home,D,0.0,0.0,Sporting KC,1.5,0.6,40.0,22175.0,Ilie Sánchez,4-3-3,Lorenzo Hernandez,Match Report,,Los Angeles FC
+2024-03-16,19:30,MLS,Regular Season,Sat,Away,L,0.0,2.0,Minnesota Utd,1.6,0.8,51.0,19315.0,Ilie Sánchez,4-3-3,Kyle Johnston,Match Report,,Los Angeles FC
+2024-03-23,19:30,MLS,Regular Season,Sat,Home,W,5.0,0.0,Nashville,4.8,0.5,45.0,22000.0,Ilie Sánchez,4-3-3,Erick Lezama,Match Report,,Los Angeles FC
+2024-03-30,14:00,MLS,Regular Season,Sat,Away,L,2.0,3.0,Rapids,1.1,1.6,44.0,14386.0,Ilie Sánchez,4-3-3,Armando Villarreal,Match Report,,Los Angeles FC
+2024-04-06,16:45,MLS,Regular Season,Sat,Home,W,2.0,1.0,LA Galaxy,3.6,1.0,32.0,22321.0,Ilie Sánchez,4-3-3,Jon Freemon,Match Report,,Los Angeles FC
+2024-04-13,13:45,MLS,Regular Season,Sat,Away,D,2.0,2.0,Portland Timbers,1.7,1.4,61.0,23245.0,Ilie Sánchez,4-3-3,Rubiel Vázquez,Match Report,,Los Angeles FC
+2024-04-20,19:30,MLS,Regular Season,Sat,Home,D,2.0,2.0,NY Red Bulls,1.5,1.0,58.0,22122.0,Ilie Sánchez,4-3-3,Guido Gonzalez,Match Report,,Los Angeles FC
+2024-04-27,19:30,MLS,Regular Season,Sat,Home,W,3.0,2.0,Portland Timbers,1.2,0.8,53.0,22032.0,Ilie Sánchez,4-3-3,Ismail Elfath,Match Report,,Los Angeles FC
+2024-05-04,16:30,MLS,Regular Season,Sat,Away,L,1.0,3.0,SJ Earthquakes,1.9,1.5,61.0,43774.0,Ilie Sánchez,4-3-3,Víctor Rivas,Match Report,,Los Angeles FC
+2024-05-11,19:30,MLS,Regular Season,Sat,Home,W,3.0,0.0,Vancouver W'caps,3.8,0.4,54.0,22099.0,Ilie Sánchez,4-3-3,Ted Unkel,Match Report,,Los Angeles FC
+2024-05-15,19:30,MLS,Regular Season,Wed,Away,W,2.0,0.0,St. Louis,1.7,1.2,45.0,,Aaron Long,4-3-3,Joe Dickerson,Match Report,,Los Angeles FC
+2024-05-25,19:30,MLS,Regular Season,Sat,Away,W,1.0,0.0,Atlanta Utd,0.9,1.3,37.0,43128.0,Aaron Long,3-4-3,Boiko Serhii,Match Report,,Los Angeles FC
+2024-05-29,19:45,MLS,Regular Season,Wed,Home,W,2.0,0.0,Minnesota Utd,2.3,0.2,56.0,22010.0,Aaron Long,4-3-3,Tim Ford,Match Report,,Los Angeles FC
+2024-06-01,19:30,MLS,Regular Season,Sat,Home,W,1.0,0.0,FC Dallas,1.5,0.4,44.0,22105.0,Hugo Lloris,4-3-3,Lukasz Szpala,Match Report,,Los Angeles FC
+2024-02-24,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,Austin,3.0,1.1,48.0,20738.0,Michael Boxall,4-3-3,Trevor Wiseman,Match Report,,Minnesota United
+2024-03-02,13:00,MLS,Regular Season,Sat,Home,D,1.0,1.0,Crew,0.8,1.4,44.0,19906.0,Michael Boxall,4-3-3,Amin Hadzic,Match Report,,Minnesota United
+2024-03-09,19:30,MLS,Regular Season,Sat,Away,W,3.0,2.0,Orlando City,1.4,4.1,41.0,23025.0,Michael Boxall,4-3-3,Wilmer Pino Mercado,Match Report,,Minnesota United
+2024-03-16,19:30,MLS,Regular Season,Sat,Home,W,2.0,0.0,LAFC,0.8,1.6,49.0,19315.0,Michael Boxall,4-2-3-1,Kyle Johnston,Match Report,,Minnesota United
+2024-03-30,14:00,MLS,Regular Season,Sat,Away,L,0.0,2.0,Philadelphia,0.6,2.1,54.0,19047.0,Michael Boxall,4-3-3,Serhii Boiko,Match Report,,Minnesota United
+2024-04-06,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,RSL,1.9,1.0,58.0,18652.0,Michael Boxall,4-3-3,Mark Allatin,Match Report,,Minnesota United
+2024-04-13,19:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,Dynamo FC,2.3,0.4,57.0,19658.0,Michael Boxall,4-2-3-1,Filip Dujic,Match Report,,Minnesota United
+2024-04-21,18:00,MLS,Regular Season,Sun,Away,W,3.0,0.0,Charlotte,1.7,0.9,43.0,27021.0,Michael Boxall,3-4-3,Pierre-Luc Lauzière,Match Report,,Minnesota United
+2024-04-27,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,Sporting KC,2.3,1.4,37.0,19712.0,Michael Boxall,5-3-2,Ted Unkel,Match Report,,Minnesota United
+2024-05-04,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,Atlanta Utd,0.5,1.7,32.0,43338.0,Michael Boxall,5-4-1,Guido Gonzalez,Match Report,,Minnesota United
+2024-05-15,19:30,MLS,Regular Season,Wed,Home,D,2.0,2.0,LA Galaxy,2.5,1.0,41.0,18722.0,Michael Boxall,3-4-3,Lukasz Szpala,Match Report,,Minnesota United
+2024-05-18,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,Portland Timbers,2.3,1.4,58.0,19735.0,Michael Boxall,5-4-1,Jair Marrufo,Match Report,,Minnesota United
+2024-05-25,19:30,MLS,Regular Season,Sat,Away,D,3.0,3.0,Rapids,1.9,3.3,26.0,16201.0,Michael Boxall,5-4-1,Filip Dujic,Match Report,,Minnesota United
+2024-05-29,19:45,MLS,Regular Season,Wed,Away,L,0.0,2.0,LAFC,0.2,2.3,44.0,22010.0,Michael Boxall,3-4-3,Tim Ford,Match Report,,Minnesota United
+2024-06-01,19:30,MLS,Regular Season,Sat,Home,W,3.0,1.0,Sporting KC,1.6,0.7,46.0,19738.0,Michael Boxall,3-4-3,Joe Dickerson,Match Report,,Minnesota United
+2024-02-25,18:00,MLS,Regular Season,Sun,Home,D,1.0,1.0,Inter Miami,3.2,0.6,37.0,27642.0,Maya Yoshida,4-2-3-1,Gabriele Ciampi,Match Report,,LA Galaxy
+2024-03-02,19:30,MLS,Regular Season,Sat,Away,W,3.0,1.0,SJ Earthquakes,1.6,0.8,53.0,18000.0,Maya Yoshida,4-3-3,Cristian Campo Hernández,Match Report,,LA Galaxy
+2024-03-10,14:00,MLS,Regular Season,Sun,Away,D,2.0,2.0,Nashville,1.9,1.3,63.0,28316.0,Maya Yoshida,4-3-3,Wesley Costa,Match Report,,LA Galaxy
+2024-03-16,19:30,MLS,Regular Season,Sat,Home,D,3.0,3.0,St. Louis,2.5,2.1,66.0,25174.0,Maya Yoshida,4-3-3,Atahan Yaya,Match Report,,LA Galaxy
+2024-03-23,19:30,MLS,Regular Season,Sat,Away,W,3.0,2.0,Sporting KC,1.9,2.5,52.0,18102.0,Maya Yoshida,4-3-3,Aleksandar Zhelyazkov,Match Report,,LA Galaxy
+2024-03-30,19:30,MLS,Regular Season,Sat,Home,W,1.0,0.0,Seattle,0.8,1.7,46.0,22736.0,Maya Yoshida,4-4-2,Ismail Elfath,Match Report,,LA Galaxy
+2024-04-06,16:45,MLS,Regular Season,Sat,Away,L,1.0,2.0,LAFC,1.0,3.6,68.0,22321.0,Maya Yoshida,4-3-3,Jon Freemon,Match Report,,LA Galaxy
+2024-04-13,19:30,MLS,Regular Season,Sat,Away,W,3.0,1.0,Vancouver W'caps,2.5,2.4,60.0,25026.0,Maya Yoshida,4-3-3,Ismir Pekmic,Match Report,,LA Galaxy
+2024-04-21,17:15,MLS,Regular Season,Sun,Home,W,4.0,3.0,SJ Earthquakes,2.4,1.8,59.0,25335.0,Maya Yoshida,4-3-3,R. Mendoza,Match Report,,LA Galaxy
+2024-04-27,12:45,MLS,Regular Season,Sat,Away,L,0.0,2.0,Austin,0.5,1.1,60.0,20738.0,Maya Yoshida,4-3-3,Víctor Rivas,Match Report,,LA Galaxy
+2024-05-05,15:45,MLS,Regular Season,Sun,Away,D,0.0,0.0,Seattle,0.4,1.5,45.0,31102.0,Maya Yoshida,4-3-3,Drew Fischer,Match Report,,LA Galaxy
+2024-05-11,19:30,MLS,Regular Season,Sat,Home,D,2.0,2.0,RSL,2.8,1.4,56.0,,Maya Yoshida,4-3-3,Rubiel Vázquez,Match Report,,LA Galaxy
+2024-05-15,19:30,MLS,Regular Season,Wed,Away,D,2.0,2.0,Minnesota Utd,1.0,2.5,59.0,18722.0,Maya Yoshida,4-3-3,Lukasz Szpala,Match Report,,LA Galaxy
+2024-05-18,19:30,MLS,Regular Season,Sat,Away,D,0.0,0.0,Charlotte,1.5,1.2,66.0,29099.0,Maya Yoshida,4-3-3,Joe Dickerson,Match Report,,LA Galaxy
+2024-05-25,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,Dynamo FC,1.1,1.9,49.0,21707.0,Maya Yoshida,4-3-3,Allen Chapman,Match Report,,LA Galaxy
+2024-05-29,19:30,MLS,Regular Season,Wed,Home,W,3.0,1.0,FC Dallas,3.6,0.6,57.0,19505.0,Maya Yoshida,4-3-3,Filip Dujic,Match Report,,LA Galaxy
+2024-06-01,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,Fire,1.5,1.0,64.0,25237.0,Maya Yoshida,4-3-3,Marcos de Oliveira,Match Report,,LA Galaxy
+2024-03-02,16:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,Charlotte,1.0,1.3,49.0,29624.0,Ryan Gauld,4-3-3,Scott Bowman,Match Report,,Vancouver Whitecaps
+2024-03-09,19:30,MLS,Regular Season,Sat,Away,W,2.0,0.0,SJ Earthquakes,0.7,0.6,40.0,16045.0,Ryan Gauld,3-4-3,Christopher Calderón,Match Report,,Vancouver Whitecaps
+2024-03-16,19:30,MLS,Regular Season,Sat,Away,W,3.0,1.0,FC Dallas,1.2,1.0,42.0,19096.0,Ryan Gauld,3-4-3,Jonathan Weiner,Match Report,,Vancouver Whitecaps
+2024-03-23,16:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,RSL,0.6,0.9,46.0,22178.0,Ryan Gauld,3-4-3,Chris Grabas,Match Report,,Vancouver Whitecaps
+2024-03-30,19:30,MLS,Regular Season,Sat,Home,W,3.0,2.0,Portland Timbers,2.4,1.1,44.0,24693.0,Ryan Gauld,3-4-3,Allen Chapman,Match Report,,Vancouver Whitecaps
+2024-04-06,16:30,MLS,Regular Season,Sat,Home,W,4.0,0.0,Toronto FC,2.5,0.7,50.0,24678.0,Ryan Gauld,3-4-3,Ramy Touchan,Match Report,,Vancouver Whitecaps
+2024-04-13,19:30,MLS,Regular Season,Sat,Home,L,1.0,3.0,LA Galaxy,2.4,2.5,40.0,25026.0,Ryan Gauld,3-4-3◆,Ismir Pekmic,Match Report,,Vancouver Whitecaps
+2024-04-20,19:30,MLS,Regular Season,Sat,Away,W,2.0,0.0,Seattle,2.0,0.6,63.0,30550.0,Ryan Gauld,3-4-3,Ramy Touchan,Match Report,,Vancouver Whitecaps
+2024-04-27,19:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,NY Red Bulls,1.0,1.2,41.0,17525.0,Ryan Gauld,3-4-3,Mark Allatin,Match Report,,Vancouver Whitecaps
+2024-05-04,19:30,MLS,Regular Season,Sat,Home,D,0.0,0.0,Austin,1.2,0.3,65.0,32465.0,Ryan Gauld,3-4-3,Marcos de Oliveira,Match Report,,Vancouver Whitecaps
+2024-05-11,19:30,MLS,Regular Season,Sat,Away,L,0.0,3.0,LAFC,0.4,3.8,46.0,22099.0,Ryan Gauld,3-4-3,Ted Unkel,Match Report,,Vancouver Whitecaps
+2024-05-15,19:30,MLS,Regular Season,Wed,Away,L,0.0,1.0,Rapids,0.7,2.4,43.0,11190.0,Ryan Gauld,3-4-3,Alexis Da Silva,Match Report,,Vancouver Whitecaps
+2024-05-18,19:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,Seattle,1.0,1.0,48.0,30102.0,Ryan Gauld,3-4-3,Víctor Rivas,Match Report,,Vancouver Whitecaps
+2024-05-25,19:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,Inter Miami,2.2,1.3,51.0,51035.0,Ryan Gauld,3-4-3,Joe Dickerson,Match Report,,Vancouver Whitecaps
+2024-05-29,19:30,MLS,Regular Season,Wed,Away,W,2.0,1.0,Sporting KC,1.8,0.8,41.0,17046.0,Ryan Gauld,3-5-2,R. Mendoza,Match Report,,Vancouver Whitecaps
+2024-06-01,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,Rapids,2.3,1.5,53.0,22979.0,Ryan Gauld,3-5-2,Michael Venne,Match Report,,Vancouver Whitecaps
+2024-02-24,19:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,Minnesota Utd,1.1,3.0,52.0,20738.0,Brad Stuver,4-2-3-1,Trevor Wiseman,Match Report,,Austin FC
+2024-03-02,19:30,MLS,Regular Season,Sat,Away,D,0.0,0.0,Seattle,0.0,1.2,43.0,30067.0,Alexander Ring,4-3-3,Rafael Martinez,Match Report,,Austin FC
+2024-03-09,19:30,MLS,Regular Season,Sat,Home,D,2.0,2.0,St. Louis,1.0,2.0,41.0,20738.0,Alexander Ring,4-2-3-1,Guilherme Ceretta de Lima,Match Report,,Austin FC
+2024-03-16,19:30,MLS,Regular Season,Sat,Home,D,2.0,2.0,Philadelphia,1.2,2.4,54.0,20738.0,Alexander Ring,4-3-3,Wesley Costa,Match Report,,Austin FC
+2024-03-23,19:30,MLS,Regular Season,Sat,Away,L,0.0,2.0,Orlando City,0.2,1.9,57.0,20985.0,Sebastián Driussi,4-2-3-1,Esteban Rosano,Match Report,,Austin FC
+2024-03-30,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,FC Dallas,1.5,0.7,67.0,20738.0,Sebastián Driussi,4-2-3-1,R. Mendoza,Match Report,,Austin FC
+2024-04-06,19:30,MLS,Regular Season,Sat,Home,W,4.0,3.0,SJ Earthquakes,1.9,2.7,61.0,20738.0,Sebastián Driussi,4-2-3-1,Lukasz Szpala,Match Report,,Austin FC
+2024-04-14,15:45,MLS,Regular Season,Sun,Away,L,0.0,1.0,St. Louis,0.3,1.5,62.0,22423.0,Sebastián Driussi,4-2-3-1,Ted Unkel,Match Report,,Austin FC
+2024-04-20,19:30,MLS,Regular Season,Sat,Away,W,1.0,0.0,Dynamo FC,0.8,1.5,33.0,20115.0,Sebastián Driussi,4-2-3-1,Rubiel Vázquez,Match Report,,Austin FC
+2024-04-27,12:45,MLS,Regular Season,Sat,Home,W,2.0,0.0,LA Galaxy,1.1,0.5,40.0,20738.0,Sebastián Driussi,4-2-3-1,Víctor Rivas,Match Report,,Austin FC
+2024-05-04,19:30,MLS,Regular Season,Sat,Away,D,0.0,0.0,Vancouver W'caps,0.3,1.2,35.0,32465.0,Sebastián Driussi,4-2-3-1,Marcos de Oliveira,Match Report,,Austin FC
+2024-05-11,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,FC Dallas,2.1,1.4,65.0,19069.0,Sebastián Driussi,4-2-3-1,Jair Marrufo,Match Report,,Austin FC
+2024-05-15,19:30,MLS,Regular Season,Wed,Home,W,1.0,0.0,Dynamo FC,1.4,1.3,41.0,20738.0,Sebastián Driussi,4-2-3-1,Ismail Elfath,Match Report,,Austin FC
+2024-05-18,19:30,MLS,Regular Season,Sat,Home,W,3.0,2.0,Sporting KC,2.4,1.0,43.0,20738.0,Sebastián Driussi,4-2-3-1,Boiko Serhii,Match Report,,Austin FC
+2024-05-25,19:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,SJ Earthquakes,0.6,3.3,51.0,13744.0,Sebastián Driussi,4-2-3-1,Chris Penso,Match Report,,Austin FC
+2024-05-29,19:30,MLS,Regular Season,Wed,Home,L,0.0,2.0,Portland Timbers,2.2,1.7,63.0,20738.0,Sebastián Driussi,4-1-4-1,Víctor Rivas,Match Report,,Austin FC
+2024-06-01,19:30,MLS,Regular Season,Sat,Away,L,1.0,5.0,RSL,1.3,3.8,39.0,21078.0,Alexander Ring,4-2-3-1,Alexis Da Silva,Match Report,,Austin FC
+2024-02-24,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,Sporting KC,1.0,0.2,60.0,18818.0,Steve Clark,3-5-1-1,Jaime Herrera,Match Report,,Houston Dynamo
+2024-03-02,19:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,NY Red Bulls,1.2,1.0,57.0,16516.0,Steve Clark,4-3-3,Lorenzo Hernandez,Match Report,,Houston Dynamo
+2024-03-16,19:30,MLS,Regular Season,Sat,Home,W,1.0,0.0,Portland Timbers,1.1,1.5,58.0,16003.0,Steve Clark,4-2-3-1,Erick Lezama,Match Report,,Houston Dynamo
+2024-03-23,19:30,MLS,Regular Season,Sat,Away,W,1.0,0.0,Rapids,0.8,0.7,52.0,13432.0,Steve Clark,4-2-3-1,Mario Maric,Match Report,,Houston Dynamo
+2024-03-30,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,SJ Earthquakes,0.8,0.2,80.0,16184.0,Steve Clark,4-2-3-1,Ismir Pekmic,Match Report,,Houston Dynamo
+2024-04-06,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,Fire,1.0,1.4,59.0,18844.0,Steve Clark,4-2-3-1,Malik Badawi,Match Report,,Houston Dynamo
+2024-04-13,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,Minnesota Utd,0.4,2.3,43.0,19658.0,Steve Clark,4-2-3-1,Filip Dujic,Match Report,,Houston Dynamo
+2024-04-20,19:30,MLS,Regular Season,Sat,Home,L,0.0,1.0,Austin,1.5,0.8,67.0,20115.0,Steve Clark,4-3-3,Rubiel Vázquez,Match Report,,Houston Dynamo
+2024-04-27,19:30,MLS,Regular Season,Sat,Away,L,0.0,2.0,FC Dallas,0.1,2.3,45.0,19096.0,Steve Clark,4-2-3-1,Lukasz Szpala,Match Report,,Houston Dynamo
+2024-05-04,19:30,MLS,Regular Season,Sat,Home,D,0.0,0.0,St. Louis,1.3,1.0,67.0,,Héctor Herrera,4-2-3-1,Boiko Serhii,Match Report,,Houston Dynamo
+2024-05-11,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,Sporting KC,1.3,0.7,54.0,,Héctor Herrera,4-2-3-1,Alexis Da Silva,Match Report,,Houston Dynamo
+2024-05-15,19:30,MLS,Regular Season,Wed,Away,L,0.0,1.0,Austin,1.3,1.4,59.0,20738.0,Steve Clark,4-2-3-1,Ismail Elfath,Match Report,,Houston Dynamo
+2024-05-18,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,FC Dallas,0.8,0.8,61.0,19284.0,Héctor Herrera,4-2-3-1,Tori Penso,Match Report,,Houston Dynamo
+2024-05-25,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,LA Galaxy,1.9,1.1,51.0,21707.0,Héctor Herrera,4-2-3-1,Allen Chapman,Match Report,,Houston Dynamo
+2024-05-29,19:30,MLS,Regular Season,Wed,Home,W,3.0,1.0,Rapids,2.3,1.7,56.0,15237.0,Héctor Herrera,4-2-3-1,Marcos de Oliveira,Match Report,,Houston Dynamo
+2024-06-01,19:30,MLS,Regular Season,Sat,Away,D,2.0,2.0,Portland Timbers,1.0,1.7,55.0,21214.0,Héctor Herrera,4-1-4-1,Guido Gonzalez,Match Report,,Houston Dynamo
+2024-02-24,19:30,MLS,Regular Season,Sat,Away,L,1.0,4.0,Portland Timbers,1.2,0.5,59.0,21411.0,Keegan Rosenberry,4-2-3-1,Aleksandar Zhelyazkov,Match Report,,Colorado Rapids
+2024-03-02,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,Nashville,0.6,1.5,51.0,16223.0,Keegan Rosenberry,4-2-3-1,Esteban Rosano,Match Report,,Colorado Rapids
+2024-03-09,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,RSL,1.6,1.3,39.0,20147.0,Keegan Rosenberry,4-2-3-1,Atahan Yaya,Match Report,,Colorado Rapids
+2024-03-16,12:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,Seattle,2.3,1.1,52.0,30036.0,Keegan Rosenberry,4-2-3-1,Trevor Wiseman,Match Report,,Colorado Rapids
+2024-03-23,19:30,MLS,Regular Season,Sat,Home,L,0.0,1.0,Dynamo FC,0.7,0.8,48.0,13432.0,Keegan Rosenberry,4-2-3-1,Mario Maric,Match Report,,Colorado Rapids
+2024-03-30,14:00,MLS,Regular Season,Sat,Home,W,3.0,2.0,LAFC,1.6,1.1,56.0,14386.0,Keegan Rosenberry,4-2-3-1,Armando Villarreal,Match Report,,Colorado Rapids
+2024-04-06,19:30,MLS,Regular Season,Sat,Away,D,2.0,2.0,Inter Miami,1.2,1.0,42.0,20868.0,Zack Steffen,4-2-3-1,Ted Unkel,Match Report,,Colorado Rapids
+2024-04-13,19:30,MLS,Regular Season,Sat,Away,W,3.0,0.0,SJ Earthquakes,1.8,2.2,39.0,14232.0,Keegan Rosenberry,4-2-3-1,Malik Badawi,Match Report,,Colorado Rapids
+2024-04-20,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,FC Dallas,1.8,1.0,46.0,7492.0,Keegan Rosenberry,4-2-3-1,Ricardo Fierro,Match Report,,Colorado Rapids
+2024-04-27,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,FC Cincinnati,0.7,2.1,41.0,25513.0,Keegan Rosenberry,4-2-3-1,Boiko Serhii,Match Report,,Colorado Rapids
+2024-05-05,16:00,MLS,Regular Season,Sun,Away,W,2.0,0.0,NYCFC,0.6,1.3,34.0,19456.0,Keegan Rosenberry,4-4-2,Allen Chapman,Match Report,,Colorado Rapids
+2024-05-11,19:30,MLS,Regular Season,Sat,Home,L,2.0,3.0,SJ Earthquakes,1.9,1.1,64.0,15557.0,Keegan Rosenberry,4-2-3-1,Natalie Simon,Match Report,,Colorado Rapids
+2024-05-15,19:30,MLS,Regular Season,Wed,Home,W,1.0,0.0,Vancouver W'caps,2.4,0.7,57.0,11190.0,Keegan Rosenberry,4-2-3-1,Alexis Da Silva,Match Report,,Colorado Rapids
+2024-05-18,19:30,MLS,Regular Season,Sat,Away,L,3.0,5.0,RSL,2.4,2.3,38.0,,Keegan Rosenberry,4-2-3-1,Jon Freemon,Match Report,,Colorado Rapids
+2024-05-25,19:30,MLS,Regular Season,Sat,Home,D,3.0,3.0,Minnesota Utd,3.3,1.9,74.0,16201.0,Keegan Rosenberry,4-2-3-1,Filip Dujic,Match Report,,Colorado Rapids
+2024-05-29,19:30,MLS,Regular Season,Wed,Away,L,1.0,3.0,Dynamo FC,1.7,2.3,44.0,15237.0,Zack Steffen,4-2-3-1,Marcos de Oliveira,Match Report,,Colorado Rapids
+2024-06-01,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,Vancouver W'caps,1.5,2.3,47.0,22979.0,Keegan Rosenberry,4-2-3-1,Michael Venne,Match Report,,Colorado Rapids
+2024-02-24,19:30,MLS,Regular Season,Sat,Home,W,4.0,1.0,Rapids,0.5,1.2,41.0,21411.0,Diego Chará,4-2-3-1,Aleksandar Zhelyazkov,Match Report,,Portland Timbers
+2024-03-02,19:30,MLS,Regular Season,Sat,Home,D,2.0,2.0,D.C. United,0.8,2.0,42.0,20221.0,Diego Chará,4-4-2,Trevor Wiseman,Match Report,,Portland Timbers
+2024-03-09,14:00,MLS,Regular Season,Sat,Away,W,2.0,1.0,NYCFC,0.9,1.3,59.0,24774.0,Diego Chará,4-2-3-1,Esteban Rosano,Match Report,,Portland Timbers
+2024-03-16,19:30,MLS,Regular Season,Sat,Away,L,0.0,1.0,Dynamo FC,1.5,1.1,42.0,16003.0,Diego Chará,4-2-3-1,Erick Lezama,Match Report,,Portland Timbers
+2024-03-23,19:30,MLS,Regular Season,Sat,Home,L,1.0,3.0,Philadelphia,1.8,1.9,71.0,23046.0,Diego Chará,4-2-3-1,Cristian Campo Hernández,Match Report,,Portland Timbers
+2024-03-30,19:30,MLS,Regular Season,Sat,Away,L,2.0,3.0,Vancouver W'caps,1.1,2.4,56.0,24693.0,Diego Chará,4-2-3-1,Allen Chapman,Match Report,,Portland Timbers
+2024-04-07,12:45,MLS,Regular Season,Sun,Away,D,3.0,3.0,Sporting KC,2.1,2.6,50.0,17424.0,Evander,4-2-3-1,Armando Villarreal,Match Report,,Portland Timbers
+2024-04-13,13:45,MLS,Regular Season,Sat,Home,D,2.0,2.0,LAFC,1.4,1.7,39.0,23245.0,Diego Chará,4-2-3-1,Rubiel Vázquez,Match Report,,Portland Timbers
+2024-04-20,19:30,MLS,Regular Season,Sat,Away,D,2.0,2.0,Crew,0.6,1.5,35.0,20740.0,Diego Chará,4-2-3-1,Ted Unkel,Match Report,,Portland Timbers
+2024-04-27,19:30,MLS,Regular Season,Sat,Away,L,2.0,3.0,LAFC,0.8,1.2,47.0,22032.0,Diego Chará,4-2-3-1,Ismail Elfath,Match Report,,Portland Timbers
+2024-05-04,19:30,MLS,Regular Season,Sat,Away,L,0.0,2.0,Charlotte,0.4,1.4,55.0,27495.0,Maxime Crépeau,4-2-3-1,Malik Badawi,Match Report,,Portland Timbers
+2024-05-12,13:45,MLS,Regular Season,Sun,Home,L,1.0,2.0,Seattle,0.7,0.4,53.0,,Diego Chará,4-2-3-1,Allen Chapman,Match Report,,Portland Timbers
+2024-05-15,19:30,MLS,Regular Season,Wed,Home,W,4.0,2.0,SJ Earthquakes,3.3,1.8,63.0,,Diego Chará,3-4-3,Pierre-Luc Lauzière,Match Report,,Portland Timbers
+2024-05-18,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,Minnesota Utd,1.4,2.3,42.0,19735.0,Evander,3-5-2,Jair Marrufo,Match Report,,Portland Timbers
+2024-05-25,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,Sporting KC,2.1,0.2,43.0,22848.0,Diego Chará,4-4-1-1,Drew Fischer,Match Report,,Portland Timbers
+2024-05-29,19:30,MLS,Regular Season,Wed,Away,W,2.0,0.0,Austin,1.7,2.2,37.0,20738.0,Diego Chará,4-2-3-1,Víctor Rivas,Match Report,,Portland Timbers
+2024-06-01,19:30,MLS,Regular Season,Sat,Home,D,2.0,2.0,Dynamo FC,1.7,1.0,45.0,21214.0,Diego Chará,4-2-3-1,Guido Gonzalez,Match Report,,Portland Timbers
+2024-02-24,13:45,MLS,Regular Season,Sat,Away,L,1.0,2.0,LAFC,1.8,1.5,56.0,22214.0,Cristian Roldan,4-4-2,Wesley Costa,Match Report,,Seattle Sounders
+2024-03-02,19:30,MLS,Regular Season,Sat,Home,D,0.0,0.0,Austin,1.2,0.0,57.0,30067.0,Cristian Roldan,4-2-3-1,Rafael Martinez,Match Report,,Seattle Sounders
+2024-03-16,12:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,Rapids,1.1,2.3,48.0,30036.0,Cristian Roldan,4-4-2,Trevor Wiseman,Match Report,,Seattle Sounders
+2024-03-23,19:30,MLS,Regular Season,Sat,Away,L,2.0,3.0,SJ Earthquakes,1.4,2.2,59.0,16109.0,Cristian Roldan,4-4-2,Gabriele Ciampi,Match Report,,Seattle Sounders
+2024-03-30,19:30,MLS,Regular Season,Sat,Away,L,0.0,1.0,LA Galaxy,1.7,0.8,54.0,22736.0,Stefan Frei,4-2-3-1,Ismail Elfath,Match Report,,Seattle Sounders
+2024-04-06,19:30,MLS,Regular Season,Sat,Home,W,5.0,0.0,CF Montréal,3.6,0.5,59.0,30013.0,Stefan Frei,4-2-3-1,Filip Dujic,Match Report,,Seattle Sounders
+2024-04-13,19:30,MLS,Regular Season,Sat,Away,D,0.0,0.0,FC Dallas,1.0,0.8,56.0,19096.0,Stefan Frei,4-2-3-1,Alexis Da Silva,Match Report,,Seattle Sounders
+2024-04-20,19:30,MLS,Regular Season,Sat,Home,L,0.0,2.0,Vancouver W'caps,0.6,2.0,37.0,30550.0,Stefan Frei,4-2-3-1,Ramy Touchan,Match Report,,Seattle Sounders
+2024-04-27,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,D.C. United,1.4,1.9,43.0,18223.0,Stefan Frei,4-2-3-1,R. Mendoza,Match Report,,Seattle Sounders
+2024-04-30,19:30,MLS,Regular Season,Tue,Away,W,3.0,2.0,Philadelphia,2.2,1.2,42.0,18525.0,Cristian Roldan,4-4-2,Joe Dickerson,Match Report,,Seattle Sounders
+2024-05-05,15:45,MLS,Regular Season,Sun,Home,D,0.0,0.0,LA Galaxy,1.5,0.4,55.0,31102.0,Stefan Frei,4-2-3-1,Drew Fischer,Match Report,,Seattle Sounders
+2024-05-12,13:45,MLS,Regular Season,Sun,Away,W,2.0,1.0,Portland Timbers,0.4,0.7,47.0,,Stefan Frei,4-2-3-1,Allen Chapman,Match Report,,Seattle Sounders
+2024-05-15,19:30,MLS,Regular Season,Wed,Away,L,0.0,2.0,RSL,0.5,2.1,38.0,,Stefan Frei,4-2-3-1,Ismir Pekmic,Match Report,,Seattle Sounders
+2024-05-18,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,Vancouver W'caps,1.0,1.0,52.0,30102.0,Stefan Frei,4-2-3-1,Víctor Rivas,Match Report,,Seattle Sounders
+2024-05-25,19:30,MLS,Regular Season,Sat,Away,W,2.0,1.0,St. Louis,1.3,1.5,52.0,22500.0,Stefan Frei,4-2-3-1,Lukasz Szpala,Match Report,,Seattle Sounders
+2024-05-29,19:30,MLS,Regular Season,Wed,Home,D,1.0,1.0,RSL,0.8,1.3,46.0,29244.0,Stefan Frei,4-2-3-1,Boiko Serhii,Match Report,,Seattle Sounders
+2024-02-24,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,RSL,0.7,1.7,40.0,22423.0,Roman Bürki,4-2-3-1,Lorenzo Hernandez,Match Report,,St Louis City
+2024-03-02,19:30,MLS,Regular Season,Sat,Home,W,2.0,0.0,NYCFC,0.8,0.5,45.0,22423.0,Roman Bürki,4-4-2,Erick Lezama,Match Report,,St Louis City
+2024-03-09,19:30,MLS,Regular Season,Sat,Away,D,2.0,2.0,Austin,2.0,1.0,59.0,20738.0,Roman Bürki,4-4-2,Guilherme Ceretta de Lima,Match Report,,St Louis City
+2024-03-16,19:30,MLS,Regular Season,Sat,Away,D,3.0,3.0,LA Galaxy,2.1,2.5,34.0,25174.0,Roman Bürki,4-4-2,Atahan Yaya,Match Report,,St Louis City
+2024-03-23,19:30,MLS,Regular Season,Sat,Home,D,2.0,2.0,D.C. United,2.0,1.9,57.0,22423.0,Roman Bürki,4-3-3,Amin Hadzic,Match Report,,St Louis City
+2024-03-30,19:30,MLS,Regular Season,Sat,Away,L,1.0,3.0,RSL,0.5,1.8,43.0,19357.0,Roman Bürki,4-2-3-1,Drew Fischer,Match Report,,St Louis City
+2024-04-06,19:30,MLS,Regular Season,Sat,Home,D,0.0,0.0,FC Dallas,1.9,1.3,66.0,22423.0,Roman Bürki,4-2-3-1,Marcos de Oliveira,Match Report,,St Louis City
+2024-04-14,15:45,MLS,Regular Season,Sun,Home,W,1.0,0.0,Austin,1.5,0.3,38.0,22423.0,Roman Bürki,4-2-3-1,Ted Unkel,Match Report,,St Louis City
+2024-04-20,19:30,MLS,Regular Season,Sat,Away,D,3.0,3.0,Sporting KC,1.9,1.3,43.0,19637.0,Roman Bürki,4-2-3-1,Allen Chapman,Match Report,,St Louis City
+2024-05-04,19:30,MLS,Regular Season,Sat,Away,D,0.0,0.0,Dynamo FC,1.0,1.3,33.0,,Roman Bürki,4-2-3-1,Boiko Serhii,Match Report,,St Louis City
+2024-05-11,19:30,MLS,Regular Season,Sat,Home,W,3.0,1.0,Fire,2.3,1.0,48.0,22500.0,Roman Bürki,4-2-3-1,Pierre-Luc Lauzière,Match Report,,St Louis City
+2024-05-15,19:30,MLS,Regular Season,Wed,Home,L,0.0,2.0,LAFC,1.2,1.7,55.0,,Roman Bürki,4-2-3-1,Joe Dickerson,Match Report,,St Louis City
+2024-05-18,19:30,MLS,Regular Season,Sat,Away,L,1.0,3.0,FC Cincinnati,0.6,3.0,45.0,25512.0,Roman Bürki,4-4-2,Tim Ford,Match Report,,St Louis City
+2024-05-25,19:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,Seattle,1.5,1.3,48.0,22500.0,Roman Bürki,4-2-3-1,Lukasz Szpala,Match Report,,St Louis City
+2024-06-01,19:30,MLS,Regular Season,Sat,Away,D,3.0,3.0,Inter Miami,1.6,2.6,32.0,20793.0,Roman Bürki,4-2-3-1,Allen Chapman,Match Report,,St Louis City
+2024-02-24,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,FC Dallas,0.9,1.0,47.0,19096.0,Jackson Yueill,4-3-3,DeShun Beard,Match Report,,San Jose Earthquakes
+2024-03-02,19:30,MLS,Regular Season,Sat,Home,L,1.0,3.0,LA Galaxy,0.8,1.6,47.0,18000.0,Jackson Yueill,4-3-3,Cristian Campo Hernández,Match Report,,San Jose Earthquakes
+2024-03-09,19:30,MLS,Regular Season,Sat,Home,L,0.0,2.0,Vancouver W'caps,0.6,0.7,60.0,16045.0,Jackson Yueill,4-2-3-1,Christopher Calderón,Match Report,,San Jose Earthquakes
+2024-03-16,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,Sporting KC,1.3,1.0,49.0,18219.0,Jackson Yueill,4-2-3-1,Amin Hadzic,Match Report,,San Jose Earthquakes
+2024-03-23,19:30,MLS,Regular Season,Sat,Home,W,3.0,2.0,Seattle,2.2,1.4,41.0,16109.0,Jackson Yueill,4-3-3,Gabriele Ciampi,Match Report,,San Jose Earthquakes
+2024-03-30,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,Dynamo FC,0.2,0.8,20.0,16184.0,Jackson Yueill,4-3-3,Ismir Pekmic,Match Report,,San Jose Earthquakes
+2024-04-06,19:30,MLS,Regular Season,Sat,Away,L,3.0,4.0,Austin,2.7,1.9,39.0,20738.0,Cristian Espinoza,4-3-3,Lukasz Szpala,Match Report,,San Jose Earthquakes
+2024-04-13,19:30,MLS,Regular Season,Sat,Home,L,0.0,3.0,Rapids,2.2,1.8,61.0,14232.0,Jackson Yueill,4-3-3,Malik Badawi,Match Report,,San Jose Earthquakes
+2024-04-21,17:15,MLS,Regular Season,Sun,Away,L,3.0,4.0,LA Galaxy,1.8,2.4,41.0,25335.0,Jackson Yueill,4-3-3,R. Mendoza,Match Report,,San Jose Earthquakes
+2024-04-27,19:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,Nashville,1.1,0.9,45.0,28984.0,Jackson Yueill,4-3-3,Allen Chapman,Match Report,,San Jose Earthquakes
+2024-05-04,16:30,MLS,Regular Season,Sat,Home,W,3.0,1.0,LAFC,1.5,1.9,39.0,43774.0,Jackson Yueill,4-3-3,Víctor Rivas,Match Report,,San Jose Earthquakes
+2024-05-11,19:30,MLS,Regular Season,Sat,Away,W,3.0,2.0,Rapids,1.1,1.9,36.0,15557.0,Cristian Espinoza,4-2-3-1,Natalie Simon,Match Report,,San Jose Earthquakes
+2024-05-15,19:30,MLS,Regular Season,Wed,Away,L,2.0,4.0,Portland Timbers,1.8,3.3,37.0,,Cristian Espinoza,4-2-3-1,Pierre-Luc Lauzière,Match Report,,San Jose Earthquakes
+2024-05-18,19:30,MLS,Regular Season,Sat,Home,L,0.0,1.0,Orlando City,0.6,1.9,50.0,14172.0,Jackson Yueill,4-2-3-1,Malik Badawi,Match Report,,San Jose Earthquakes
+2024-05-25,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,Austin,3.3,0.6,49.0,13744.0,Jackson Yueill,4-2-3-1,Chris Penso,Match Report,,San Jose Earthquakes
+2024-05-31,19:30,MLS,Regular Season,Fri,Away,L,1.0,5.0,NYCFC,1.0,2.7,42.0,20188.0,Jackson Yueill,4-2-3-1,Mark Allatin,Match Report,,San Jose Earthquakes
+2024-02-24,19:30,MLS,Regular Season,Sat,Away,D,1.0,1.0,Dynamo FC,0.2,1.0,40.0,18818.0,Johnny Russell,4-3-3,Jaime Herrera,,,Sporting Kansas City
+2024-03-02,19:30,MLS,Regular Season,Sat,Home,D,1.0,1.0,Philadelphia,0.9,0.5,59.0,19942.0,Johnny Russell,4-3-3,Rafael Bonilla,,,Sporting Kansas City
+2024-03-09,19:30,MLS,Regular Season,Sat,Away,D,0.0,0.0,LAFC,0.6,1.5,60.0,22175.0,Johnny Russell,4-3-3,Lorenzo Hernandez,,,Sporting Kansas City
+2024-03-16,19:30,MLS,Regular Season,Sat,Home,W,2.0,1.0,SJ Earthquakes,1.0,1.3,51.0,18219.0,Johnny Russell,4-3-3,Amin Hadzic,,,Sporting Kansas City
+2024-03-23,19:30,MLS,Regular Season,Sat,Home,L,2.0,3.0,LA Galaxy,2.5,1.9,48.0,18102.0,Alan Pulido,4-2-2-2,Aleksandar Zhelyazkov,,,Sporting Kansas City
+2024-03-30,19:30,MLS,Regular Season,Sat,Away,W,3.0,1.0,Toronto FC,1.2,1.4,39.0,24382.0,Dániel Sallói,4-3-3,Guido Gonzalez,,,Sporting Kansas City
+2024-04-07,12:45,MLS,Regular Season,Sun,Home,D,3.0,3.0,Portland Timbers,2.6,2.1,50.0,17424.0,Dániel Sallói,4-3-3,Armando Villarreal,,,Sporting Kansas City
+2024-04-13,19:30,MLS,Regular Season,Sat,Home,L,2.0,3.0,Inter Miami,0.6,0.9,41.0,72610.0,Dániel Sallói,4-2-3-1,Víctor Rivas,,,Sporting Kansas City
+2024-04-20,19:30,MLS,Regular Season,Sat,Home,D,3.0,3.0,St. Louis,1.3,1.9,57.0,19637.0,Dániel Sallói,4-2-3-1,Allen Chapman,,,Sporting Kansas City
+2024-04-27,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,Minnesota Utd,1.4,2.3,63.0,19712.0,Dániel Sallói,4-2-3-1,Ted Unkel,,,Sporting Kansas City
+2024-05-04,19:30,MLS,Regular Season,Sat,Away,L,0.0,1.0,RSL,0.3,0.9,42.0,20001.0,Johnny Russell,4-3-3,Tim Ford,,,Sporting Kansas City
+2024-05-11,19:30,MLS,Regular Season,Sat,Home,L,1.0,2.0,Dynamo FC,0.7,1.3,46.0,,Johnny Russell,4-2-3-1,Alexis Da Silva,,,Sporting Kansas City
+2024-05-18,19:30,MLS,Regular Season,Sat,Away,L,2.0,3.0,Austin,1.0,2.4,57.0,20738.0,Johnny Russell,4-3-3,Boiko Serhii,,,Sporting Kansas City
+2024-05-25,19:30,MLS,Regular Season,Sat,Away,L,1.0,2.0,Portland Timbers,0.2,2.1,57.0,22848.0,Johnny Russell,4-3-3,Drew Fischer,,,Sporting Kansas City
+2024-05-29,19:30,MLS,Regular Season,Wed,Home,L,1.0,2.0,Vancouver W'caps,0.8,1.8,59.0,17046.0,Nemanja Radoja,4-3-3,R. Mendoza,,,Sporting Kansas City
+2024-06-01,19:30,MLS,Regular Season,Sat,Away,L,1.0,3.0,Minnesota Utd,0.7,1.6,54.0,19738.0,Nemanja Radoja,4-3-3,Joe Dickerson,,,Sporting Kansas City
