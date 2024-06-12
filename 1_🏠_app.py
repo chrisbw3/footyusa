@@ -17,11 +17,7 @@ show_pages(
 
 st.set_page_config(page_icon=":soccer_ball:",
                    layout="wide")
-rain(
-        emoji="⚽",
-        font_size=20,
-        falling_speed=7,
-        animation_length=".5",
+
     )
 ###sidebar section
 st.sidebar.write(''':orange[DEMO STAGES.]
