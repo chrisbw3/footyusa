@@ -5,6 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 
+
 import matplotlib.pyplot as plt
 from highlight_text import fig_text
 from mplsoccer import PyPizza, FontManager
@@ -20,11 +21,11 @@ font_italic = FontManager('https://raw.githubusercontent.com/googlefonts/roboto/
 font_bold = FontManager('https://raw.githubusercontent.com/google/fonts/main/apache/robotoslab/'
                         'RobotoSlab[wght].ttf')
 
-df = pd.read_csv('leagues/MLS/mlf.csv')
-df2 = pd.read_csv('leagues/MLS/GSC.csv')
-df3 = pd.read_csv('leagues/MLS/playing_time.csv')
-df4 = pd.read_csv('leagues/MLS/passing.csv')
-df5 = pd.read_csv('leagues/MLS/shooting.csv')
+df = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/mlf.csv')
+df2 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/GSC.csv')
+df3 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/playing_time.csv')
+df4 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/passing.csv')
+df5 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/shooting.csv')
 
 df2 = df2.rename(columns={'SCA_SCA90': 'SCA90', 'GCA_GCA90': 'GCA90'})
 
@@ -57,7 +58,6 @@ with c1:
               Poss < 50''', value=count_games)
     poss_l_mls = st.metric(f'''The number of games where {selected_team_1}'s GF < xG and 
               Poss > 50''', value=count_games2)
-
 
 
 with c2:  
@@ -104,20 +104,46 @@ with c2:
     fig1_mls.update_layout(annotations=annotations)
     st.plotly_chart(fig1_mls, use_container_width=True)
 
+c9, c10 = st.columns([1,1])
+
+with c9:
+    st.title("Game Outcomes")
+    st. write('''There are some opponents who seem to always win (or lose) against your team. 
+              Have you ever asked yourself if this is really your team's fifth game winning 2-1? Not only do
+              the mix of team tactics leave potential repeats of game outcome, but so do form & luck against opponents.''')
+
+
+with c10:
+    heatmap = px.density_heatmap(filtered_df1, x='GA', y='GF', nbinsx=10, nbinsy=10, color_continuous_scale=px.colors.diverging.Tealrose)
+    heatmap.update_yaxes(tickformat=".1f")
+    heatmap.update_yaxes(tickvals=filtered_df1['GF'], ticktext=list(map(int, filtered_df1['GF'])))
+    heatmap.update_xaxes(tickvals=filtered_df1['GF'], ticktext=list(map(int, filtered_df1['GF'])))
+    st.plotly_chart(heatmap, use_container_width=True)
 
 c3, c4 = st.columns([1,1.9])
 with c3:
-    st.title("Goal & Shot Creating Actions/90'")
-    selected_action_type = st.selectbox("Action Type", ['GCA90', 'SCA90'])
-    selected_pos1 = st.multiselect("Select Positions", options=combined_df["POS_x"].unique(), default=combined_df["POS_x"].unique(), key = "pos1")
-    filtered_combined_df = combined_df[(combined_df['Team_x'] == selected_team_1) & (combined_df['POS_x'].isin(selected_pos1))]
+    st.markdown("<h1 style='text-align: center;'>Shots & Goals</h1>", unsafe_allow_html=True)
     gsc_txt_mls = st.write('''Goal/shot creating actions are two offensive actions directly 
              leading to goals/shots, such as: passes, take-ons, and drawing fouls.''')
-
- 
+    additional_teams1 = st.multiselect("Select additional teams to compare.", combined_df['Team_x'].unique())
+    selected_action_type = st.selectbox("Action Type", ['GCA90', 'SCA90'])
+    selected_pos1 = st.multiselect("Select Positions", options=combined_df["POS_x"].unique(), default=combined_df["POS_x"].unique(), key = "pos1")
+    additional_teams1 = [selected_team_1] + additional_teams1
+    filtered_combined_df = combined_df[(combined_df['Team_x'].isin(additional_teams1)) & (combined_df['POS_x'].isin(selected_pos1))]    
+    def get_marker_size(row):
+        if row['Playing Time_MP'] and row['Playing Time_MP'] != 0:
+            return row['Playing Time_MP']
+        else:
+            return row['MP']
+    filtered_combined_df['MarkerSize'] = filtered_combined_df.apply(get_marker_size, axis=1)
+    players_to_remove = st.multiselect("Select players to remove outlier data", filtered_combined_df['Player'].unique())    
     
+    filtered_combined_df = filtered_combined_df[~filtered_combined_df['Player'].isin(players_to_remove)]
+
+    
+st.subheader("Additional Shooting Stats")   
 with c4:    
-    fig2_mls = px.scatter(filtered_combined_df, x='Playing Time_Min', y=selected_action_type, size=[8]*len(filtered_combined_df), hover_data=['Player', 'POS_x'])
+    fig2_mls = px.scatter(filtered_combined_df, x='Playing Time_Min', y=selected_action_type, color='Team_x', size='MarkerSize', hover_data=['Player'])
     fig2_mls.update_traces(marker=dict(
                                line=dict(width=2,
                                          color='Coral')),
@@ -127,12 +153,127 @@ with c4:
 
 
 
+
+
+c13, c14 = st.columns(2)
+
+with c13:
+
+    filtered_df5 = df5[df5['Team'] == selected_team_1]
+    filtered_df5_2 = df5[df5['Team'] == selected_team_1]
+    filtered_players2 = df5[df5['Team'] == selected_team_1]
+    selected_player_1 = st.selectbox("Select Player", filtered_players2, key=1)
+
+    additional_teams1 = st.multiselect("Select Additional Teams", df5['Team'].unique(), key=2)
+
+
+    all_selected_teams = [selected_team_1] + additional_teams1
+
+
+    filtered_df5 = df5[df5['Team'].isin(all_selected_teams)]
+
+    filtered_df5_2['color'] = 'blue'  # default color
+    filtered_df5_2.loc[filtered_df5_2['Player'] == selected_player_1, 'color'] = 'red'
+
+    fig4 = px.scatter(filtered_df5, x='Standard_Sh', y='Standard_SoT', color='Team',
+                 hover_data=["Player", "Standard_Gls"],size='Standard_Gls')
+    st.plotly_chart(fig4, use_container_width=True)
+with c14:
+    
+    pizza_columns = df5[["Standard_Gls", "Standard_Dist", "Expected_np:G-xG"]].columns.tolist()
+
+    values = filtered_df5_2[filtered_df5_2['Player'] == selected_player_1][pizza_columns].astype(int)
+
+    
+   # Filter out zeros and non-finite values
+    filtered_df5_no_zeros = df5.replace(0, pd.NA).dropna()  
+    filtered_df5_no_zeros = filtered_df5_no_zeros.dropna(subset=pizza_columns, how='all')
+
+    # Convert NaN values to zeros
+    filtered_df5_no_zeros[pizza_columns] = filtered_df5_no_zeros[pizza_columns].fillna(0)
+
+    # Calculate league averages
+    league_averages = filtered_df5_no_zeros[pizza_columns].mean().round().astype(int)
+    values_2 = pd.Series(league_averages, index=pizza_columns)
+
+  
+    min_range = filtered_df5_2[pizza_columns].min().round(0).astype(int)
+    max_range = filtered_df5_2[pizza_columns].max().round(0).astype(int)
+
+
+    baker = PyPizza(
+        params=pizza_columns,
+        min_range=min_range,        
+        max_range=max_range,        
+        background_color="#ECE4AE", 
+        straight_line_color="#000000",
+        last_circle_color="#000000", 
+        last_circle_lw=2.5, 
+        other_circle_lw=0,
+        other_circle_color="#000000", 
+        straight_line_lw=1
+    )
+
+   
+    fig, ax = baker.make_pizza(
+        values.values[0],         
+        compare_values=values_2,   
+        figsize=(8,7),              
+        color_blank_space="same",   
+        blank_alpha=0.4,         
+        param_location=110,        
+        kwargs_slices=dict(
+            facecolor="#1A78CF", edgecolor="#000000",
+            zorder=1, linewidth=1
+        ),                          
+        kwargs_compare=dict(
+            facecolor="#ff9300", edgecolor="#222222", zorder=3, linewidth=1,
+        ),                          
+        kwargs_params=dict(
+            color="#000000", fontsize=12, zorder=5,
+            va="center"
+        ),                          
+        kwargs_values=dict(
+            color="#000000", fontsize=12,
+            zorder=3,
+            bbox=dict(
+                edgecolor="#000000", facecolor="#1A78CF",
+                boxstyle="round,pad=0.2", lw=1
+            )
+        ),                          
+        kwargs_compare_values=dict(
+            color="#000000", fontsize=12,
+            zorder=3,
+            bbox=dict(
+                edgecolor="#000000", facecolor="#FF9300",
+                boxstyle="round,pad=0.2", lw=1
+            )
+        )                            
+    )
+
+    fig_text(
+    0.515, 0.99, f"<{selected_player_1}'s Shooting> vs <League Average>", size=17, fig=fig,
+    highlight_textprops=[{"color": '#1A78CF'}, {"color": '#EE8900'}],
+    ha="center", fontproperties=font_bold.prop, color="#000000"
+)
+ 
+    with st.spinner("Rendering..."):
+        plt.savefig("radar_chart.png", dpi=90, bbox_inches='tight', pad_inches=0.2)
+
+ 
+    st.image("radar_chart.png")
+
+
+    plt.close(fig)
+
+
 c5, c6 = st.columns([1,1.9])
 with c5:
     st.title("Key Passes")
     selected_pos2 = st.multiselect("Select Positions", options=df4["POS"].unique(), default=df4["POS"].unique(), key = "pos2")
     filtered_df4 = df4[(df4['Team'] == selected_team_1) & (df4['POS'].isin(selected_pos2))]
     filtered_df4 = filtered_df4[filtered_df4['A-xAG'] != 0]
+   
 
     positive_assists = ((filtered_df4['A-xAG'] > 0)).sum()
     negative_assists = ((filtered_df4['A-xAG'] < 0)).sum()
@@ -148,7 +289,7 @@ with c5:
     else:
         format_string = "No values selected."
 
-   # st.write(format_string)
+
     pos_ass_txt_mls = st.metric(label=f"{selected_team_1}'s {format_string} with + A-xAG", value=positive_assists)
     neg_ass_txt_mls = st.metric(label=f"{selected_team_1}'s {format_string} with  A-xAG", value=negative_assists)
 
@@ -159,37 +300,25 @@ with c6:
     st.plotly_chart(fig3_mls, use_container_width=True)
 
 
-c9, c10 = st.columns([1,1.9])
 
-with c9:
-    st.title("Game Outcomes")
-    st. write("")
-
-
-with c10:
-    heatmap = px.density_heatmap(filtered_df1, x='GA', y='GF', nbinsx=10, nbinsy=10, color_continuous_scale=px.colors.diverging.Tealrose)
-    heatmap.update_yaxes(tickformat=".1f")
-    heatmap.update_yaxes(tickvals=filtered_df1['GF'], ticktext=list(map(int, filtered_df1['GF'])))
-    heatmap.update_xaxes(tickvals=filtered_df1['GF'], ticktext=list(map(int, filtered_df1['GF'])))
-    st.plotly_chart(heatmap, use_container_width=True)
-
-
-filtered_df5 = df5[df5['Team'] == selected_team_1]
-fig4 = px.scatter_matrix(filtered_df5,
-    dimensions=["Standard_Sh", "Standard_SoT"],
-    hover_data="Player", size="Standard_Gls")
-fig4.update_traces(diagonal_visible=False)
-st.plotly_chart(fig4, use_container_width=True)
 
 #############################################################
-c11, midc, c12 = st.columns((1, 1, 1.5))
+c11, midc, c12 = st.columns((1, 0.3, 1.5))
 
 with c11:
-    # Filter players for selected team
-    #filtered_players = df4['Player'].unique()
     filtered_players = df4[df4['Team'] == selected_team_1]['Player'].unique()
     selected_player_1 = st.selectbox("Select Player", filtered_players)
-    st.write()  # You can add content here if needed
+    st.write('''**Assists - Expected Assisted Goals** & It's Correlation With Team Success/90' (goals scored while the player
+             was on the field - goals allowed while player was off the field.)''')
+    
+    combined_df2 = pd.merge(df3, df4, on='Player', how='left')
+    combined_df2 = combined_df2.rename(columns={'Team Success_+/-': 'Success +/-'})
+    filtered_combined_df2 = combined_df2[['Player', 'A-xAG', 'Success +/-', 'POS_x']]
+    filtered_combined_df2['Sum'] = filtered_combined_df2[['Success +/-', 'A-xAG']].sum(axis=1)
+    filtered_combined_df2['Rank'] = filtered_combined_df2['Sum'].rank(method='max', ascending=False).astype(int)
+    filtered_combined_df2 = filtered_combined_df2.nsmallest(10, 'Rank')[['Player', 'A-xAG', 'Success +/-', 'POS_x', 'Rank']]
+
+    st.dataframe(filtered_combined_df2, use_container_width=True, hide_index=True)
 
 with midc:
     st.write()
@@ -197,22 +326,22 @@ with midc:
 with c12:
     pizza_columns = ["Total_Cmp", "Total_Att", "Total_Cmp%", "Short_Cmp%", "Medium_Cmp%", "Long_Cmp%"]
 
-    # Filter values for selected player
+
     values = df4[df4['Player'] == selected_player_1][pizza_columns].astype(int)
 
-    # Calculate league averages only for columns present in values
+    
     league_averages = df4[pizza_columns].mean().round(0).astype(int)
-    values_2 = pd.Series(league_averages, index=pizza_columns)  # Convert to Series for proper comparison
+    values_2 = pd.Series(league_averages, index=pizza_columns)  
 
-    # Minimum range value and maximum range value for parameters
+  
     min_range = df4[pizza_columns].min().round(0).astype(int)
     max_range = df4[pizza_columns].max().round(0).astype(int)
 
-    # Instantiate PyPizza class
+
     baker = PyPizza(
         params=pizza_columns,
-        min_range=min_range,        # Min range values
-        max_range=max_range,        # Max range values
+        min_range=min_range,        
+        max_range=max_range,        
         background_color="#ECE4AE", 
         straight_line_color="#000000",
         last_circle_color="#000000", 
@@ -222,25 +351,25 @@ with c12:
         straight_line_lw=1
     )
 
-    # Plot pizza
+   
     fig, ax = baker.make_pizza(
-        values.values[0],           # List of values
-        compare_values=values_2,    # Passing comparison values
-        figsize=(8,7),                     # Specify the axis
-        color_blank_space="same",   # Use same color to fill blank space
-        blank_alpha=0.4,            # Alpha for blank-space colors
-        param_location=110,         # Where the parameters will be added
+        values.values[0],         
+        compare_values=values_2,   
+        figsize=(8,7),              
+        color_blank_space="same",   
+        blank_alpha=0.4,         
+        param_location=110,        
         kwargs_slices=dict(
             facecolor="#1A78CF", edgecolor="#000000",
             zorder=1, linewidth=1
-        ),                          # Values to be used when plotting slices
+        ),                          
         kwargs_compare=dict(
             facecolor="#ff9300", edgecolor="#222222", zorder=3, linewidth=1,
-        ),                          # Values to be used when plotting comparison slices
+        ),                          
         kwargs_params=dict(
             color="#000000", fontsize=12, zorder=5,
             va="center"
-        ),                          # Values to be used when adding parameter
+        ),                          
         kwargs_values=dict(
             color="#000000", fontsize=12,
             zorder=3,
@@ -248,7 +377,7 @@ with c12:
                 edgecolor="#000000", facecolor="#1A78CF",
                 boxstyle="round,pad=0.2", lw=1
             )
-        ),                           # Values to be used when adding parameter-values
+        ),                          
         kwargs_compare_values=dict(
             color="#000000", fontsize=12,
             zorder=3,
@@ -256,22 +385,20 @@ with c12:
                 edgecolor="#000000", facecolor="#FF9300",
                 boxstyle="round,pad=0.2", lw=1
             )
-        )                            # Values to be used when adding comparison-values
+        )                            
     )
 
-    # Add title
-    #plt.title(f"{selected_player_1} vs League Average", size=20, color="#F2F2F2", pad=40)
     fig_text(
-    0.515, 0.99, f"<{selected_player_1}> vs <League Average>", size=17, fig=fig,
+    0.515, 0.99, f"<{selected_player_1}'s Passing> vs <League Average>", size=17, fig=fig,
     highlight_textprops=[{"color": '#1A78CF'}, {"color": '#EE8900'}],
     ha="center", fontproperties=font_bold.prop, color="#000000"
 )
-    # Save plot with smaller size
+ 
     with st.spinner("Rendering..."):
         plt.savefig("radar_chart.png", dpi=90, bbox_inches='tight', pad_inches=0.2)
 
-    # Display saved image
+ 
     st.image("radar_chart.png")
 
-    # Close plot to avoid displaying it twice
+
     plt.close(fig)
