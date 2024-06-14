@@ -16,7 +16,7 @@ show_pages(
         Page("pages/2_🤖_About.py", "About", "🤖"),
         Page("pages/3_🥇_MLS.py", "MLS", "🥇"),
         Page("pages/4_🥈_USL-Championship.py", "USL Championship", "🥈"),
-        Page("pages/MLS/5_🥉_USL-1.py", "USL1", "🥉")
+        Page("pages/5_🥉_USL-1.py", "USL1", "🥉")
         ])
 
 st.set_page_config(page_icon=":soccer_ball:",
