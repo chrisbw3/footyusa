@@ -12,11 +12,11 @@ from mplsoccer import PyPizza, FontManager
 
 show_pages(
     [
-        Page("leagues/MLS/1_🏠_app.py", "Home", "🏠"),
-        Page("leagues/MLS/2_🤖_About.py", "About", "🤖"),
-        Page("leagues/MLS/3_🥇_MLS.py", "MLS", "🥇"),
-        Page("leagues/MLS/4_🥈_USL-Championship.py", "USL Championship", "🥈"),
-        Page("leagues/MLS/5_🥉_USL-1.py", "USL1", "🥉")
+        Page("1_🏠_app.py", "Home", "🏠"),
+        Page("pages/2_🤖_About.py", "About", "🤖"),
+        Page("pages/3_🥇_MLS.py", "MLS", "🥇"),
+        Page("pages/4_🥈_USL-Championship.py", "USL Championship", "🥈"),
+        Page("pages/MLS/5_🥉_USL-1.py", "USL1", "🥉")
         ])
 
 st.set_page_config(page_icon=":soccer_ball:",
@@ -29,11 +29,11 @@ font_italic = FontManager('https://raw.githubusercontent.com/googlefonts/roboto/
 font_bold = FontManager('https://raw.githubusercontent.com/google/fonts/main/apache/robotoslab/'
                         'RobotoSlab[wght].ttf')
 
-df = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/mlf.csv')
-df2 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/GSC.csv')
-df3 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/playing_time.csv')
-df4 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/passing.csv')
-df5 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/shooting.csv')
+df = pd.read_csv('leagues/MLS/MLS/mlf.csv')
+df2 = pd.read_csv('leagues/MLS/MLS/GSC.csv')
+df3 = pd.read_csv('leagues/MLS/playing_time.csv')
+df4 = pd.read_csv('leagues/MLS/passing.csv')
+df5 = pd.read_csv('leagues/MLS/shooting.csv')
 
 df2 = df2.rename(columns={'SCA_SCA90': 'SCA90', 'GCA_GCA90': 'GCA90'})
 
