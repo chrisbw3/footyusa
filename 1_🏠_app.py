@@ -6,11 +6,11 @@ from st_pages import Page, show_pages, add_page_title
 
 show_pages(
     [
-        Page("/Users/christiangentry/Documents/Data_projects/footy/program_files/1_🏠_app.py", "Home", "🏠"),
-        Page("/Users/christiangentry/Documents/Data_projects/footy/pages/2_🤖_About.py", "About", "🤖"),
-        Page("/Users/christiangentry/Documents/Data_projects/footy/pages/3_🥇_MLS.py", "MLS", "🥇"),
-        Page("/Users/christiangentry/Documents/Data_projects/footy/pages/4_🥈_USL-Championship.py", "USL Championship", "🥈"),
-        Page("/Users/christiangentry/Documents/Data_projects/footy/pages/5_🥉_USL-1.py", "USL1", "🥉")
+        Page("1_🏠_app.py", "Home", "🏠"),
+        Page("pages/2_🤖_About.py", "About", "🤖"),
+        Page("pages/3_🥇_MLS.py", "MLS", "🥇"),
+        Page("pages/4_🥈_USL-Championship.py", "USL Championship", "🥈"),
+        Page("pages/5_🥉_USL-1.py", "USL1", "🥉")
         ])
         
 
