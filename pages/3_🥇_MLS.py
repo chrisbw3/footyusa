@@ -14,7 +14,7 @@ show_pages(
     [
         Page("1_🏠_app.py", "Home", "🏠"),
         Page("pages/2_🤖_About.py", "About", "🤖"),
-        Page("pages/3_🥇_MLS.py", "MLS", "🥇"),
+        Page("pages/3_🥇_MLS.py", "🥇"),
         Page("pages/4_🥈_USL-Championship.py", "USL Championship", "🥈"),
         Page("pages/5_🥉_USL-1.py", "USL1", "🥉")
         ])
@@ -166,7 +166,9 @@ with c4:
 c13, c14 = st.columns(2)
 
 with c13:
-
+    filtered_df3 = df3[['Player', 'Playing Time_Min']]
+    df5 = pd.merge(filtered_df3, df5, on='Player', how='left')
+    df5.columns = df5.columns.str.strip()
     filtered_df5 = df5[df5['Team'] == selected_team_1]
     filtered_df5_2 = df5[df5['Team'] == selected_team_1]
     filtered_players2 = df5[df5['Team'] == selected_team_1]
@@ -188,7 +190,7 @@ with c13:
     st.plotly_chart(fig4, use_container_width=True)
 with c14:
     
-    pizza_columns = df5[["Standard_Gls", "Standard_Dist", "Expected_np:G-xG"]].columns.tolist()
+    pizza_columns = df5[["Standard_Gls", "Standard_Dist", "Expected_np:G-xG", "Playing Time_Min"]].columns.tolist()
 
     values = filtered_df5_2[filtered_df5_2['Player'] == selected_player_1][pizza_columns].astype(int)
 
@@ -205,8 +207,8 @@ with c14:
     values_2 = pd.Series(league_averages, index=pizza_columns)
 
   
-    min_range = filtered_df5_2[pizza_columns].min().round(0).astype(int)
-    max_range = filtered_df5_2[pizza_columns].max().round(0).astype(int)
+    min_range = filtered_df5_no_zeros[pizza_columns].min().round(0).astype(int)
+    max_range = filtered_df5_no_zeros[pizza_columns].max().round(0).astype(int)
 
 
     baker = PyPizza(
@@ -270,7 +272,7 @@ with c14:
 
  
     st.image("radar_chart.png")
-
+    st.write("*Excluding players with no contributing stats.")
 
     plt.close(fig)
 
@@ -299,7 +301,7 @@ with c5:
 
 
     pos_ass_txt_mls = st.metric(label=f"{selected_team_1}'s {format_string} with + A-xAG", value=positive_assists)
-    neg_ass_txt_mls = st.metric(label=f"{selected_team_1}'s {format_string} with  A-xAG", value=negative_assists)
+    neg_ass_txt_mls = st.metric(label=f"{selected_team_1}'s {format_string} with - A-xAG", value=negative_assists)
 
 
 with c6:
