@@ -14,7 +14,7 @@ show_pages(
     [
         Page("1_🏠_app.py", "Home", "🏠"),
         Page("pages/2_🤖_About.py", "About", "🤖"),
-        Page("pages/3_🥇_MLS.py", "🥇"),
+        Page("pages/3_🥇_MLS.py", "MLS", "🥇"),
         Page("pages/4_🥈_USL-Championship.py", "USL Championship", "🥈"),
         Page("pages/5_🥉_USL-1.py", "USL1", "🥉")
         ])
@@ -34,7 +34,7 @@ df2 = pd.read_csv('leagues/MLS/GSC.csv')
 df3 = pd.read_csv('leagues/MLS/playing_time.csv')
 df4 = pd.read_csv('leagues/MLS/passing.csv')
 df5 = pd.read_csv('leagues/MLS/shooting.csv')
-
+df6 = pd.read_csv('leagues/MLS/possession.csv')
 df2 = df2.rename(columns={'SCA_SCA90': 'SCA90', 'GCA_GCA90': 'GCA90'})
 
 combined_df = pd.merge(df3, df2, on='Player', how='left')
@@ -48,7 +48,7 @@ selected_team_1 = st.sidebar.selectbox("Select Team", options=df["Home Team"].un
 st.sidebar.write(''':orange[DEMO STAGES.]
                  ''')
 
-c1, c2 = st.columns([1,1.9])
+c1, c2 = st.columns([1,1.4])
 
 
 with c1:
@@ -61,11 +61,14 @@ with c1:
     possession_txt = st.write('''Sometimes possession isn't always better. Depending on a team's playing style,
             formation, and opponent, a counter-attacking tactic might seal the deal rather than a
              possession-dominant game.''')
-    formation_txt = st.metric(label=f"{selected_team_1}'s Most Common Formation", value=most_used_formation)
-    poss_s_mls = st.metric(f'''The number of games where {selected_team_1}'s GF > xG and 
-              Poss < 50''', value=count_games)
-    poss_l_mls = st.metric(f'''The number of games where {selected_team_1}'s GF < xG and 
-              Poss > 50''', value=count_games2)
+    formation_txt = st.metric(f"{selected_team_1}'s Most Common Formation", value=most_used_formation)
+    st.write(f'''The number of games where {selected_team_1}'s GF > xG and 
+           Poss < 50''')
+    st.subheader(count_games)
+
+    st.write(f'''The number of games where {selected_team_1}'s GF < xG and 
+              Poss > 50''')
+    st.subheader(count_games2)
 
 
 with c2:  
@@ -112,6 +115,42 @@ with c2:
     fig1_mls.update_layout(annotations=annotations)
     st.plotly_chart(fig1_mls, use_container_width=True)
 
+c15, c16 = st.columns(2)
+
+with c15:
+    st.header("Advanced Possession Analysis")
+    preference = st.radio("",["Selected Team Top 5", "Custom Selection (Select players)"])
+    columns=["Touches_Def 3rd", "Touches_Mid 3rd", "Touches_Att 3rd", "Take-Ons_Att", "Carries_PrgC", "Carries_Mis", "Carries_Dis"]
+    stat = st.selectbox("Select Stat", options=columns, index=None)
+
+    if preference == "Custom Selection (Select players)":
+        selected_player_2 = st.multiselect("Select Players", df6['Player'].tolist())
+    else: (f"{selected_team_1} is selected (see sidebar).")
+
+
+with c16:
+    if preference == "Custom Selection (Select players)":
+        if selected_player_2 and stat:
+            filtered_df = df6[df6['Player'].isin(selected_player_2)]
+            fig5 = px.bar(filtered_df, x='Player', y=stat, color_continuous_scale=px.colors.sequential.Viridis)
+        else:
+            st.write("No players/stat selected.")
+            fig5 = None
+    else:
+        if stat:    
+            filtered_df = df6[df6['Team'] == selected_team_1]
+            filtered_df = filtered_df.nlargest(5, stat)
+            fig5 = px.bar(filtered_df, x='Player', y=stat)
+        else:
+            st.write("No stat selected.")
+            fig5=None
+    
+    if fig5:
+        fig5.update_layout(title=f"{stat}", title_x=0.4)
+        st.plotly_chart(fig5, use_container_width=True)
+
+
+st.divider()
 c9, c10 = st.columns([1,1])
 
 with c9:
@@ -127,7 +166,7 @@ with c10:
     heatmap.update_yaxes(tickvals=filtered_df1['GF'], ticktext=list(map(int, filtered_df1['GF'])))
     heatmap.update_xaxes(tickvals=filtered_df1['GF'], ticktext=list(map(int, filtered_df1['GF'])))
     st.plotly_chart(heatmap, use_container_width=True)
-
+st.divider()
 c3, c4 = st.columns([1,1.9])
 with c3:
     st.markdown("<h1 style='text-align: center;'>Shots & Goals</h1>", unsafe_allow_html=True)
@@ -276,7 +315,7 @@ with c14:
 
     plt.close(fig)
 
-
+st.divider()
 c5, c6 = st.columns([1,1.9])
 with c5:
     st.title("Key Passes")
