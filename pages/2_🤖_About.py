@@ -41,7 +41,7 @@ st.divider()
 col3, col4 = st.columns(2)
 
 with col3:
-    st.image('/Users/christiangentry/Downloads/IMG_0050.JPG', caption='Meeting my FCC hero, Emmanuel Ledesma')
+    st.image('IMG_0050.JPG', caption='Meeting my FCC hero, Emmanuel Ledesma')
 
 with col4:
     st.write('''I went to my first FC Cincinnati game in 2017, during the last visit from the Rochester Rhinos.
