@@ -221,8 +221,7 @@ with c13:
 
     filtered_df5 = df5[df5['Team'].isin(all_selected_teams)]
 
-    filtered_df5_2['color'] = 'blue'  # default color
-    filtered_df5_2.loc[filtered_df5_2['Player'] == selected_player_1, 'color'] = 'red'
+
 
     fig4 = px.scatter(filtered_df5, x='Standard_Sh', y='Standard_SoT', color='Team',
                  hover_data=["Player", "Standard_Gls"],size='Standard_Gls')
@@ -230,13 +229,8 @@ with c13:
 with c14:
     
     pizza_columns = df5[["Standard_Gls", "Standard_Dist", "Expected_np:G-xG", "Playing Time_Min"]].columns.tolist()
-
-    values = filtered_df5_2[filtered_df5_2['Player'] == selected_player_1][pizza_columns].astype(int)
-
-    
-   # Filter out zeros and non-finite values
-    filtered_df5_no_zeros = df5.replace(0, pd.NA).dropna()  
-    filtered_df5_no_zeros = filtered_df5_no_zeros.dropna(subset=pizza_columns, how='all')
+      
+    filtered_df5_no_zeros = df5.dropna(subset=pizza_columns, how='all')
 
     # Convert NaN values to zeros
     filtered_df5_no_zeros[pizza_columns] = filtered_df5_no_zeros[pizza_columns].fillna(0)
@@ -245,6 +239,7 @@ with c14:
     league_averages = filtered_df5_no_zeros[pizza_columns].mean().round().astype(int)
     values_2 = pd.Series(league_averages, index=pizza_columns)
 
+    values = filtered_df5_no_zeros[filtered_df5_no_zeros['Player'] == selected_player_1][pizza_columns].astype(int)
   
     min_range = filtered_df5_no_zeros[pizza_columns].min().round(0).astype(int)
     max_range = filtered_df5_no_zeros[pizza_columns].max().round(0).astype(int)
@@ -254,7 +249,7 @@ with c14:
         params=pizza_columns,
         min_range=min_range,        
         max_range=max_range,        
-        background_color="#040b16", 
+        background_color="#ECE4AE", 
         straight_line_color="#000000",
         last_circle_color="#000000", 
         last_circle_lw=2.5, 
@@ -279,11 +274,11 @@ with c14:
             facecolor="#ff9300", edgecolor="#222222", zorder=3, linewidth=1,
         ),                          
         kwargs_params=dict(
-            color="#ffffff", fontsize=12, zorder=5,
+            color="#000000", fontsize=12, zorder=5,
             va="center"
         ),                          
         kwargs_values=dict(
-            color="#ffffff", fontsize=12,
+            color="#000000", fontsize=12,
             zorder=3,
             bbox=dict(
                 edgecolor="#000000", facecolor="#1A78CF",
@@ -291,7 +286,7 @@ with c14:
             )
         ),                          
         kwargs_compare_values=dict(
-            color="#ffffff", fontsize=12,
+            color="#000000", fontsize=12,
             zorder=3,
             bbox=dict(
                 edgecolor="#000000", facecolor="#FF9300",
@@ -303,7 +298,7 @@ with c14:
     fig_text(
     0.515, 0.99, f"<{selected_player_1}'s Shooting> vs <League Average>", size=17, fig=fig,
     highlight_textprops=[{"color": '#1A78CF'}, {"color": '#EE8900'}],
-    ha="center", fontproperties=font_bold.prop, color="#ffffff"
+    ha="center", fontproperties=font_bold.prop, color="#000000"
 )
  
     with st.spinner("Rendering..."):
