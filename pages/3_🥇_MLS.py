@@ -249,7 +249,7 @@ with c14:
         params=pizza_columns,
         min_range=min_range,        
         max_range=max_range,        
-        background_color="#ECE4AE", 
+        background_color="#060b16", 
         straight_line_color="#000000",
         last_circle_color="#000000", 
         last_circle_lw=2.5, 
