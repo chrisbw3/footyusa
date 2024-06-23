@@ -10,7 +10,7 @@ st.sidebar.info('''Want to connect? Follow for updates:
              [**Twitter**](https://x.com/_footyusa)''')
 
 
-)
+
 st.markdown("<h1 style='text-align: center;'>Vision</h1>", unsafe_allow_html=True)
 
 
