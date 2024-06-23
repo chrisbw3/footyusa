@@ -9,12 +9,7 @@ st.set_page_config(page_icon=":soccer_ball:")
 st.sidebar.info('''Want to connect? Follow for updates:  
              [**Twitter**](https://x.com/_footyusa)''')
 
-#st.image("/Users/christiangentry/Downloads/Footy USA/fulllogo_transparent_nobuffer.png", use_column_width=True, width=200)
-st.markdown(
-    f'<div style="display: flex; justify-content: center;">'
-    f'<img src="fulllogo_transparent_nobuffer.png" style="width: 50%;">'
-    f'</div>',
-    unsafe_allow_html=True
+
 )
 st.markdown("<h1 style='text-align: center;'>Vision</h1>", unsafe_allow_html=True)
 
