@@ -42,8 +42,8 @@ combined_df = combined_df.fillna(0)
 
 
 ###sidebar section
-st.sidebar.info('''Hey! Want to connect?   [**LinkedIn**](https://www.linkedin.com/in/christian-wl-gentry/)
-                | [**Twitter**](https://twitter.com/_chocolatejuice?s=11)''')
+st.sidebar.info('''Want to connect? Follow for updates:
+                 [**Twitter**](https://x.com/_footyusa)''')
 selected_team_1 = st.sidebar.selectbox("Select Team", options=df["Home Team"].unique(), index=1)
 st.sidebar.write(''':orange[DEMO STAGES.]
                  ''')
