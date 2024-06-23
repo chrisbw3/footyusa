@@ -18,6 +18,5 @@ st.set_page_config(page_icon=":soccer_ball:")
 
 st.sidebar.info('''Hey! Want to connect?   [**LinkedIn**](https://www.linkedin.com/in/christian-wl-gentry/)
                 | [**Twitter**](https://twitter.com/_chocolatejuice?s=11)''')
-selected_team_1 = st.sidebar.selectbox("Select Team", options=df["Home Team"].unique(), index=1)
 st.sidebar.write(''':orange[DEMO STAGES.]
                  ''')
