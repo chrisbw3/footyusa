@@ -416,11 +416,11 @@ with c12:
             facecolor="#ff9300", edgecolor="#222222", zorder=3, linewidth=1,
         ),                          
         kwargs_params=dict(
-            color="#000000", fontsize=12, zorder=5,
+            color="#ffffff", fontsize=12, zorder=5,
             va="center"
         ),                          
         kwargs_values=dict(
-            color="#000000", fontsize=12,
+            color="#ffffff", fontsize=12,
             zorder=3,
             bbox=dict(
                 edgecolor="#000000", facecolor="#1A78CF",
@@ -428,7 +428,7 @@ with c12:
             )
         ),                          
         kwargs_compare_values=dict(
-            color="#000000", fontsize=12,
+            color="#ffffff", fontsize=12,
             zorder=3,
             bbox=dict(
                 edgecolor="#000000", facecolor="#FF9300",
@@ -440,7 +440,7 @@ with c12:
     fig_text(
     0.515, 0.99, f"<{selected_player_1}'s Passing> vs <League Average>", size=17, fig=fig,
     highlight_textprops=[{"color": '#1A78CF'}, {"color": '#EE8900'}],
-    ha="center", fontproperties=font_bold.prop, color="#000000"
+    ha="center", fontproperties=font_bold.prop, color="#ffffff"
 )
  
     with st.spinner("Rendering..."):
