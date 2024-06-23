@@ -12,7 +12,7 @@ st.sidebar.info('''Want to connect? Follow for updates:
 #st.image("/Users/christiangentry/Downloads/Footy USA/fulllogo_transparent_nobuffer.png", use_column_width=True, width=200)
 st.markdown(
     f'<div style="display: flex; justify-content: center;">'
-    f'<img src="/Users/christiangentry/Downloads/Footy USA/fulllogo_transparent_nobuffer.png" style="width: 50%;">'
+    f'<img src="fulllogo_transparent_nobuffer.png" style="width: 50%;">'
     f'</div>',
     unsafe_allow_html=True
 )
