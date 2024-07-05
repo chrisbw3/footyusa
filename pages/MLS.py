@@ -548,7 +548,7 @@ class CustomPDF(FPDF):
         self.set_text_color(255, 255, 255)
         
         # Add logo to the top right corner
-        logo_path = '/Users/christiangentry/Documents/Data_projects/footy/Footy USA logo/fulllogo_nobuffer.png'  # Update with your actual logo path
+        logo_path = 'fulllogo_nobuffer.png'  # Update with your actual logo path
         self.image(logo_path, self.w - 30, 10, 20)  # Adjust x, y, width as needed
 
         # Set font for the header
