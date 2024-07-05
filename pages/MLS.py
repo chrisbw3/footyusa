@@ -530,12 +530,12 @@ with c12:
     plt.close(fig)
 
 with st.container():
-  pio.write_image(fig1_mls, "https://footy-usa.streamlit.app/MLS/wop.png")
-  pio.write_image(fig2_mls, "https://footy-usa.streamlit.app/MLS/g-sca.png")
-  pio.write_image(heatmap, "https://footy-usa.streamlit.app/MLS/goutcome.png")
-  pio.write_image(fig3_mls, "https://footy-usa.streamlit.app/MLS/passes.png")
-  pio.write_image(fig5_mls, "https://footy-usa.streamlit.app/MLS/advposs.png")
-  pio.write_image(fig4_mls, "https://footy-usa.streamlit.app/MLS/sot.png")
+  pio.write_image(fig1_mls, "images/wop.png")
+  pio.write_image(fig2_mls, "images/g-sca.png")
+  pio.write_image(heatmap, "images/goutcome.png")
+  pio.write_image(fig3_mls, "images/passes.png")
+  pio.write_image(fig5_mls, "images/advposs.png")
+  pio.write_image(fig4_mls, "images/sot.png")
 
 
 ##### PDF REPORT SECTION
@@ -630,17 +630,17 @@ def generate_report():
    
 
 
-    pdf.add_image_with_subhead(left_column_x, column_y + 5, 'https://footy-usa.streamlit.app/MLS/wop.png', f"{selected_team_1}'s Gls-xG Outcomes Based on Possession", column_width)
-    pdf.add_image_with_subhead(right_column_x, column_y + 5, 'https://footy-usa.streamlit.app/MLS/goutcome.png', f"{selected_team_1}'s Game Outcomes", column_width)
-    pdf.add_image_with_subhead(left_column_x, column_y + 85, 'https://footy-usa.streamlit.app/MLS/g-sca.png', f"{selected_team_1}'s {selected_action_type} vs Opponents", column_width)
-    pdf.add_image_with_subhead(right_column_x, column_y + 85, 'https://footy-usa.streamlit.app/MLS/passes.png', f"{selected_team_1}'s Assists - Expected Assisted Goals", column_width)
+    pdf.add_image_with_subhead(left_column_x, column_y + 5, 'images/wop.png', f"{selected_team_1}'s Gls-xG Outcomes Based on Possession", column_width)
+    pdf.add_image_with_subhead(right_column_x, column_y + 5, 'images/goutcome.png', f"{selected_team_1}'s Game Outcomes", column_width)
+    pdf.add_image_with_subhead(left_column_x, column_y + 85, 'images/g-sca.png', f"{selected_team_1}'s {selected_action_type} vs Opponents", column_width)
+    pdf.add_image_with_subhead(right_column_x, column_y + 85, 'images/passes.png', f"{selected_team_1}'s Assists - Expected Assisted Goals", column_width)
     if preference == "Custom Selection (Select players)":
         players_string = ', '.join(selected_player_2)
-        pdf.add_image_with_subhead(left_column_x, column_y + 165, 'https://footy-usa.streamlit.app/advposs.png', f"{players_string}'s {stat}", column_width)
+        pdf.add_image_with_subhead(left_column_x, column_y + 165, 'images/advposs.png', f"{players_string}'s {stat}", column_width)
     else:
-        pdf.add_image_with_subhead(left_column_x, column_y + 165, 'https://footy-usa.streamlit.app/advposs.png', f"{selected_team_1}'s {stat}", column_width)
+        pdf.add_image_with_subhead(left_column_x, column_y + 165, 'images/advposs.png', f"{selected_team_1}'s {stat}", column_width)
     
-    pdf.add_image_with_subhead(right_column_x, column_y + 165, 'https://footy-usa.streamlit.app/sot.png', f"{selected_team_1}'s Shots on Target Over Total Shots", column_width)
+    pdf.add_image_with_subhead(right_column_x, column_y + 165, 'images/sot.png', f"{selected_team_1}'s Shots on Target Over Total Shots", column_width)
 
     pdf.footer('@_FootyUSA')
 
