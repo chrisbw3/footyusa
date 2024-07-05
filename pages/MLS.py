@@ -645,15 +645,8 @@ def generate_report():
     return pdf_output_path
 
 if st.sidebar.button("Generate Report"):
-    generate_report()
-
-with open("footy_report.pdf", "rb") as pdf_file:
-    PDFbyte = pdf_file.read()
-
-st.download_button(label="Download Report",
-                    data=PDFbyte,
-                    file_name="footyreport.pdf",
-                    mime='application/octet-stream')
+    pdf_output_path = generate_report()
+    st.sidebar.markdown(f"Download your report [here](/{pdf_output_path})")
 
 
 
