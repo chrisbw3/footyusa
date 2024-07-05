@@ -645,7 +645,7 @@ def generate_report():
     pdf.footer('@_FootyUSA')
 
 
-    pdf_output_path = "https://footy-usa.streamlit.app/footy_report.pdf"
+    pdf_output_path = "images/footy_report.pdf"
     pdf.output(pdf_output_path)
 
     return pdf_output_path
