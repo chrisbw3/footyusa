@@ -530,12 +530,12 @@ with c12:
     plt.close(fig)
 
 with st.container():
-  pio.write_image(fig1_mls, "https://footy-usa.streamlit.app/wop.png")
-  pio.write_image(fig2_mls, "https://footy-usa.streamlit.app/g-sca.png")
-  pio.write_image(heatmap, "https://footy-usa.streamlit.app/goutcome.png")
-  pio.write_image(fig3_mls, "https://footy-usa.streamlit.app/passes.png")
-  pio.write_image(fig5_mls, "https://footy-usa.streamlit.app/advposs.png")
-  pio.write_image(fig4_mls, "https://footy-usa.streamlit.app/sot.png")
+  pio.write_image(fig1_mls, "https://footy-usa.streamlit.app/MLS/wop.png")
+  pio.write_image(fig2_mls, "https://footy-usa.streamlit.app/MLS/g-sca.png")
+  pio.write_image(heatmap, "https://footy-usa.streamlit.app/MLS/goutcome.png")
+  pio.write_image(fig3_mls, "https://footy-usa.streamlit.app/MLS/passes.png")
+  pio.write_image(fig5_mls, "https://footy-usa.streamlit.app/MLS/advposs.png")
+  pio.write_image(fig4_mls, "https://footy-usa.streamlit.app/MLS/sot.png")
 
 
 ##### PDF REPORT SECTION
