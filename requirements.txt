@@ -6,3 +6,4 @@ pandas==2.2.2
 plotly==5.18.0
 st_pages==0.5.0
 streamlit==1.32.2
+kaleido==0.2.1
