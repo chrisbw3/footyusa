@@ -17,7 +17,7 @@ st.set_page_config(page_icon=":soccer_ball:",
 
 show_pages(
     [
-        Page("pages/app.py", "Home", "🏠"),
+        Page("app.py", "Home", "🏠"),
         Page("pages/About.py", "About", "🤖"),
         Page("pages/MLS.py", "MLS", "🥇"),
         Page("pages/USL-Championship.py", "USL Championship", "🥈"),
