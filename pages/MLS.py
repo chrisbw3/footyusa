@@ -529,7 +529,13 @@ with c12:
 
     plt.close(fig)
 
-
+with st.container():
+  pio.write_image(fig1_mls, "wop.png")
+  pio.write_image(fig2_mls, "g-sca.png")
+  pio.write_image(heatmap, "goutcome.png")
+  pio.write_image(fig3_mls, "passes.png")
+  pio.write_image(fig5_mls, "advposs.png")
+  pio.write_image(fig4_mls, "sot.png")
 
 
 ##### PDF REPORT SECTION
@@ -650,10 +656,4 @@ if st.sidebar.button("Generate Report"):
 
 
 
-with st.container():
-    pio.write_image(fig1_mls, "wop.png")
-    pio.write_image(fig2_mls, "g-sca.png")
-    pio.write_image(heatmap, "goutcome.png")
-    pio.write_image(fig3_mls, "passes.png")
-    pio.write_image(fig5_mls, "advposs.png")
-    pio.write_image(fig4_mls, "sot.png")
+
