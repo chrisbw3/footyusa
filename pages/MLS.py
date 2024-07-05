@@ -630,10 +630,10 @@ def generate_report():
    
 
 
-    pdf.add_image_with_subhead(left_column_x, column_y + 5, 'https://footy-usa.streamlit.app/wop.png', f"{selected_team_1}'s Gls-xG Outcomes Based on Possession", column_width)
-    pdf.add_image_with_subhead(right_column_x, column_y + 5, 'https://footy-usa.streamlit.app/goutcome.png', f"{selected_team_1}'s Game Outcomes", column_width)
-    pdf.add_image_with_subhead(left_column_x, column_y + 85, 'https://footy-usa.streamlit.app/g-sca.png', f"{selected_team_1}'s {selected_action_type} vs Opponents", column_width)
-    pdf.add_image_with_subhead(right_column_x, column_y + 85, 'https://footy-usa.streamlit.app/passes.png', f"{selected_team_1}'s Assists - Expected Assisted Goals", column_width)
+    pdf.add_image_with_subhead(left_column_x, column_y + 5, 'https://footy-usa.streamlit.app/MLS/wop.png', f"{selected_team_1}'s Gls-xG Outcomes Based on Possession", column_width)
+    pdf.add_image_with_subhead(right_column_x, column_y + 5, 'https://footy-usa.streamlit.app/MLS/goutcome.png', f"{selected_team_1}'s Game Outcomes", column_width)
+    pdf.add_image_with_subhead(left_column_x, column_y + 85, 'https://footy-usa.streamlit.app/MLS/g-sca.png', f"{selected_team_1}'s {selected_action_type} vs Opponents", column_width)
+    pdf.add_image_with_subhead(right_column_x, column_y + 85, 'https://footy-usa.streamlit.app/MLS/passes.png', f"{selected_team_1}'s Assists - Expected Assisted Goals", column_width)
     if preference == "Custom Selection (Select players)":
         players_string = ', '.join(selected_player_2)
         pdf.add_image_with_subhead(left_column_x, column_y + 165, 'https://footy-usa.streamlit.app/advposs.png', f"{players_string}'s {stat}", column_width)
