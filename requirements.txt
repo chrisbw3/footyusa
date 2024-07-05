@@ -1,7 +1,8 @@
+fpdf==1.7.2
 highlight_text==0.2
 matplotlib==3.8.2
 mplsoccer==1.2.4
 pandas==2.2.2
 plotly==5.18.0
-st_pages==0.4.5
+st_pages==0.5.0
 streamlit==1.32.2
