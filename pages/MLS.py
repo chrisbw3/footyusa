@@ -5,7 +5,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly.io as pio
 from fpdf import FPDF
-
+import tempfile
+import os
 import matplotlib.pyplot as plt
 from highlight_text import fig_text
 from mplsoccer import PyPizza, FontManager
@@ -17,11 +18,11 @@ st.set_page_config(page_icon=":soccer_ball:",
 
 show_pages(
     [
-        Page("app.py", "Home", "🏠"),
-        Page("pages/About.py", "About", "🤖"),
-        Page("pages/MLS.py", "MLS", "🥇"),
-        Page("pages/USL-Championship.py", "USL Championship", "🥈"),
-        Page("pages/USL-1.py", "USL1", "🥉")
+        Page("/Users/christiangentry/Documents/Data_projects/footy/program_files/app.py", "Home", "🏠"),
+        Page("/Users/christiangentry/Documents/Data_projects/footy/pages/About.py", "About", "🤖"),
+        Page("/Users/christiangentry/Documents/Data_projects/footy/pages/MLS.py", "MLS", "🥇"),
+        Page("/Users/christiangentry/Documents/Data_projects/footy/pages/USL-Championship.py", "USL Championship", "🥈"),
+        Page("/Users/christiangentry/Documents/Data_projects/footy/pages/USL-1.py", "USL1", "🥉")
         ])
 
 
@@ -34,12 +35,12 @@ font_bold = FontManager('https://raw.githubusercontent.com/google/fonts/main/apa
                         'RobotoSlab[wght].ttf')
 
 
-df = pd.read_csv('leagues/MLS/mlf.csv')
-df2 = pd.read_csv('leagues/MLS/GSC.csv')
-df3 = pd.read_csv('leagues/MLS/playing_time.csv')
-df4 = pd.read_csv('leagues/MLS/passing.csv')
-df5 = pd.read_csv('leagues/MLS/shooting.csv')
-df6 = pd.read_csv('leagues/MLS/possession.csv')
+df = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/mlf.csv')
+df2 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/GSC.csv')
+df3 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/playing_time.csv')
+df4 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/passing.csv')
+df5 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/shooting.csv')
+df6 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/possession.csv')
 df2 = df2.rename(columns={'SCA_SCA90': 'SCA90', 'GCA_GCA90': 'GCA90'})
 
 combined_df = pd.merge(df3, df2, on='Player', how='left')
@@ -529,21 +530,63 @@ with c12:
 
     plt.close(fig)
 
-with st.container():
-  pio.write_image(fig1_mls, "images/wop.png")
-  pio.write_image(fig2_mls, "images/g-sca.png")
-  pio.write_image(heatmap, "images/goutcome.png")
-  pio.write_image(fig3_mls, "images/passes.png")
-  pio.write_image(fig5_mls, "images/advposs.png")
-  pio.write_image(fig4_mls, "images/sot.png")
+@st.cache_data(show_spinner=False)
+def gen_cache_imgs(fig1_mls, fig2_mls, heatmap, fig3_mls, fig5_mls, fig4_mls):
+    image_paths = []
+    
+    # Save fig1_mls as image
+    if fig1_mls:
+        fig1_path = save_image_to_tempfile(fig1_mls)
+        image_paths.append(fig1_path)
+    else:
+        st.warning("fig1_mls is None. Skipping.")
 
+    # Save fig2_mls as image
+    if fig2_mls:
+        fig2_path = save_image_to_tempfile(fig2_mls)
+        image_paths.append(fig2_path)
+    else:
+        st.warning("fig2_mls is None. Skipping.")
 
-##### PDF REPORT SECTION
+    # Save heatmap as image
+    if heatmap:
+        heatmap_path = save_image_to_tempfile(heatmap)
+        image_paths.append(heatmap_path)
+    else:
+        st.warning("heatmap is None. Skipping.")
 
+    # Save fig3_mls as image
+    if fig3_mls:
+        fig3_path = save_image_to_tempfile(fig3_mls)
+        image_paths.append(fig3_path)
+    else:
+        st.warning("fig3_mls is None. Skipping.")
+
+    # Save fig5_mls as image
+    if fig5_mls:
+        fig5_path = save_image_to_tempfile(fig5_mls)
+        image_paths.append(fig5_path)
+    else:
+        st.warning("fig5_mls is None. Skipping.")
+
+    # Save fig4_mls as image
+    if fig4_mls:
+        fig4_path = save_image_to_tempfile(fig4_mls)
+        image_paths.append(fig4_path)
+    else:
+        st.warning("fig4_mls is None. Skipping.")
+
+    return image_paths
+
+# Example function to save plotly figures as images
+def save_image_to_tempfile(fig):
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_file:
+        pio.write_image(fig, tmp_file.name)
+        return tmp_file.name
+
+# Custom PDF class
 class CustomPDF(FPDF):
-
-    def __init__(self, title=None):
-        super().__init__()
+    def set_title(self, title):
         self.title = title
 
     def header(self):
@@ -611,15 +654,17 @@ class CustomPDF(FPDF):
         # Set current position to the bottom of the image
         self.set_y(y)
 
-def generate_report():
-    pdf = CustomPDF(title=f"{selected_team_1} Team Report")
+def generate_report(selected_team_1, preference, selected_player_2, stat, selected_action_type):
+    pdf = CustomPDF()
+    pdf.set_title(f"{selected_team_1} Team Report")  # Set the title using a method or attribute
+
     pdf.add_page()
 
     # Set default font and text color
     default_font_family = 'Arial'
     default_font_size = 12
     pdf.set_font(default_font_family, size=default_font_size)
-    pdf.set_text_color(255, 255, 255) 
+    pdf.set_text_color(255, 255, 255)
 
     # Define column positions
     left_column_x = 10
@@ -627,33 +672,40 @@ def generate_report():
     column_y = 30
     column_width = 80
 
-   
+    pio.write_image(fig1_mls, "fig1_mls.png")
+    pio.write_image(fig2_mls, "fig2_mls.png")
+    pio.write_image(heatmap, "heatmap.png")
+    pio.write_image(fig3_mls, "fig3_mls.png")
+    pio.write_image(fig5_mls, "fig5_mls.png")
+    pio.write_image(fig4_mls, "fig4_mls.png") 
 
+    image_paths = gen_cache_imgs(fig1_mls, fig2_mls, heatmap, fig3_mls, fig5_mls, fig4_mls)
 
-    pdf.add_image_with_subhead(left_column_x, column_y + 5, 'images/wop.png', f"{selected_team_1}'s Gls-xG Outcomes Based on Possession", column_width)
-    pdf.add_image_with_subhead(right_column_x, column_y + 5, 'images/goutcome.png', f"{selected_team_1}'s Game Outcomes", column_width)
-    pdf.add_image_with_subhead(left_column_x, column_y + 85, 'images/g-sca.png', f"{selected_team_1}'s {selected_action_type} vs Opponents", column_width)
-    pdf.add_image_with_subhead(right_column_x, column_y + 85, 'images/passes.png', f"{selected_team_1}'s Assists - Expected Assisted Goals", column_width)
-    if preference == "Custom Selection (Select players)":
-        players_string = ', '.join(selected_player_2)
-        pdf.add_image_with_subhead(left_column_x, column_y + 165, 'images/advposs.png', f"{players_string}'s {stat}", column_width)
-    else:
-        pdf.add_image_with_subhead(left_column_x, column_y + 165, 'images/advposs.png', f"{selected_team_1}'s {stat}", column_width)
-    
-    pdf.add_image_with_subhead(right_column_x, column_y + 165, 'images/sot.png', f"{selected_team_1}'s Shots on Target Over Total Shots", column_width)
+    # Add images to PDF report
+    for image_path in image_paths:
+        pdf.add_image_with_subhead(left_column_x, column_y + 5, image_path, "Subheading", column_width)
 
     pdf.footer('@_FootyUSA')
 
-
-    pdf_output_path = "images/footy_report.pdf"
-    pdf.output(pdf_output_path)
+    # Save PDF to temporary file
+    with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp_file:
+        pdf_output_path = tmp_file.name
+        pdf.output(pdf_output_path)
 
     return pdf_output_path
 
-if st.sidebar.button("Generate Report"):
-    pdf_output_path = generate_report()
-    st.sidebar.markdown(f"Download your report [here](/{pdf_output_path})")
+def main():
+    # Example parameters for generate_report function
+    selected_team_1 = "Team A"
+    preference = "Custom Selection (Select players)"
+    selected_player_2 = ["Player 1", "Player 2"]
+    stat = "Some Stat"
+    selected_action_type = "Some Action Type"
 
+    # Button to generate report
+    if st.sidebar.button("Generate Report"):
+        pdf_output_path = generate_report(selected_team_1, preference, selected_player_2, stat, selected_action_type)
+        st.sidebar.markdown(f"Download your report [here]({pdf_output_path})")
 
-
-
+if __name__ == "__main__":
+    main()
