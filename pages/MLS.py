@@ -18,11 +18,11 @@ st.set_page_config(page_icon=":soccer_ball:",
 
 show_pages(
     [
-        Page("/Users/christiangentry/Documents/Data_projects/footy/program_files/app.py", "Home", "🏠"),
-        Page("/Users/christiangentry/Documents/Data_projects/footy/pages/About.py", "About", "🤖"),
-        Page("/Users/christiangentry/Documents/Data_projects/footy/pages/MLS.py", "MLS", "🥇"),
-        Page("/Users/christiangentry/Documents/Data_projects/footy/pages/USL-Championship.py", "USL Championship", "🥈"),
-        Page("/Users/christiangentry/Documents/Data_projects/footy/pages/USL-1.py", "USL1", "🥉")
+        Page("app.py", "Home", "🏠"),
+        Page("pages/About.py", "About", "🤖"),
+        Page("pages/MLS.py", "MLS", "🥇"),
+        Page("pages/USL-Championship.py", "USL Championship", "🥈"),
+        Page("pages/USL-1.py", "USL1", "🥉")
         ])
 
 
@@ -35,12 +35,12 @@ font_bold = FontManager('https://raw.githubusercontent.com/google/fonts/main/apa
                         'RobotoSlab[wght].ttf')
 
 
-df = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/mlf.csv')
-df2 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/GSC.csv')
-df3 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/playing_time.csv')
-df4 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/passing.csv')
-df5 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/shooting.csv')
-df6 = pd.read_csv('/Users/christiangentry/Documents/Data_projects/footy/data/leagues/MLS/possession.csv')
+df = pd.read_csv('leagues/MLS/mlf.csv')
+df2 = pd.read_csv('leagues/MLS/GSC.csv')
+df3 = pd.read_csv('leagues/MLS/playing_time.csv')
+df4 = pd.read_csv('leagues/MLS/passing.csv')
+df5 = pd.read_csv('leagues/MLS/shooting.csv')
+df6 = pd.read_csv('leagues/MLS/possession.csv')
 df2 = df2.rename(columns={'SCA_SCA90': 'SCA90', 'GCA_GCA90': 'GCA90'})
 
 combined_df = pd.merge(df3, df2, on='Player', how='left')
