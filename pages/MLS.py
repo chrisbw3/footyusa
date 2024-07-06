@@ -530,4 +530,4 @@ with c12:
 
     plt.close(fig)
 
-    main()
+
